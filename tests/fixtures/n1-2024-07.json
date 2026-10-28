@@ -1,0 +1,46 @@
+{
+  "examId": "n1-2024-07",
+  "readingAnswers": [
+    "132243",
+    "2441132",
+    "323144",
+    "213314",
+    "3142413241",
+    "23214",
+    "3241",
+    "4323",
+    "31412332",
+    "441",
+    "44",
+    "331",
+    "12"
+  ],
+  "listeningAnswers": [
+    "32123",
+    "431113",
+    "21414",
+    "13333211212",
+    "343"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "excludedQuestionIds": [
+    "r-26",
+    "r-33",
+    "r-37",
+    "r-38"
+  ],
+  "source": "20-page written reconstruction, two separate answer/transcript PDFs and13-page listening booklet checked against rendered pages. Actual66 written,30 listening,13 reading blocks. Independent answer pages checked against actual options and context. Source r26 and r33 contain corrupt options; r37/r38 contain displaced/missing ordering fragments: preserved with notes,4 excluded. Complete library rules/hours table and vertical passage48 reconstructed. Complete29 listening dialogues compared with final-track offline ASR, focused timestamps and10ms RMS; final two share2935.09s. Native transcript minor uncertain words in1-2 and4-7 retained and explicitly noted; do not affect reference answers. Actual source is31kbps HE-AAC in MP4 despite .mp3 filename,44100Hz stereo; retained12153016bytes unchanged to avoid further lossy coding, decode3092.1549375s, no playback. Browser compatibility verified with3092.154059s duration,readyState4,paused=true/currentTime=0.",
+  "verificationStatus": "verified_with_documented_source_issues",
+  "audioMaxSeconds": 3093,
+  "transcriptLengths": [
+    2522,
+    2920,
+    1720,
+    1061,
+    1470
+  ]
+}

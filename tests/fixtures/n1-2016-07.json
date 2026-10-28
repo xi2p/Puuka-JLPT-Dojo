@@ -1,0 +1,36 @@
+{
+  "examId": "n1-2016-07",
+  "readingAnswers": [
+    "341324",
+    "4132132",
+    "122431",
+    "341224",
+    "4341324121",
+    "23341",
+    "42321",
+    "2334",
+    "214312241",
+    "4312",
+    "34",
+    "1244",
+    "31"
+  ],
+  "listeningAnswers": [
+    "422133",
+    "3124432",
+    "231324",
+    "31131233221231",
+    "1423"
+  ],
+  "audioMaxSeconds": 3122,
+  "excludedQuestionIds": [],
+  "source": "Independent PDF answer grid page1 visually transcribed and cross-checked against separate DOCX answer tables and PDF explanations pages2-6. Corrected DOCX r13:4->2, listening2-3:4->2 and5-2:3->4, confirmed by content. Restored star in second blank of r36/r37; reconstructed all12 full reading blocks, notes and r69 student table (graduate school). Full original listening pages7-11 matched against offline ASR of all36 unique source tracks; 037 is an exact duplicate of036. Final q2 audio preserves every unique source segment in order including pauses, with zero decoded duration difference.37 questions in36 segments; final two share2947.26s. No speaker playback.",
+  "transcriptLengths": [
+    3294,
+    3378,
+    2461,
+    1518,
+    2113
+  ],
+  "verificationStatus": "verified"
+}

@@ -1,0 +1,47 @@
+{
+  "examId": "n1-2023-07",
+  "readingAnswers": [
+    "413423",
+    "2234114",
+    "232314",
+    "423131",
+    "4313242131",
+    "13424",
+    "2134",
+    "1322",
+    "34423114",
+    "334",
+    "31",
+    "434",
+    "24"
+  ],
+  "listeningAnswers": [
+    "13213",
+    "214134",
+    "11442",
+    "21233113221",
+    "113"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "excludedQuestionIds": [
+    "r-5",
+    "r-36",
+    "r-38",
+    "r-42",
+    "r-48"
+  ],
+  "source": "Main13-page written PDF, independent DOCX answers/partial explanations and two18-page listening originals compared. Actual66 written and30 listening,13 reading blocks; exercise-class schedule, booking rules and four-applicant table reconstructed. Source r5 missing voicing mark, r36 malformed blanks/star, r38 source word differs from independent explanation, r42 missing verb character, r48 corrupted paragraph preserved and explicitly excluded; other source errors documented without speculative restoration. r32 restored from independent explanation; r37 four-slot template restored with same second-slot star and independent ordering. All answer groups checked against actual options/context and independent baseline. Full29 listening dialogues matched against final-track offline ASR, focused timestamps and RMS; final two questions share2961.08s. Original64kbps44100mono MP3 retained byte-for-byte25240600bytes; full decode3155.069375s; no playback.",
+  "verificationStatus": "verified_with_documented_source_issues",
+  "audioMaxSeconds": 3156,
+  "transcriptLengths": [
+    2444,
+    3026,
+    1951,
+    1037,
+    1524
+  ]
+}

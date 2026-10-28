@@ -1,0 +1,38 @@
+{
+  "examId": "n1-2012-07",
+  "readingAnswers": [
+    "423321",
+    "4141342",
+    "234123",
+    "314312",
+    "3421121342",
+    "24131",
+    "32341",
+    "1322",
+    "313433414",
+    "1342",
+    "24",
+    "2124",
+    "21"
+  ],
+  "listeningAnswers": [
+    "433421",
+    "2221433",
+    "144334",
+    "1122332321323",
+    "1332"
+  ],
+  "audioMaxSeconds": 3528,
+  "excludedQuestionIds": [
+    "r-39"
+  ],
+  "source": "Source answer table pages18-19; independent vocabulary/reading explanation and Word listening source checked. Source keys r18/r19 and l5-3 corrected with independent evidence.",
+  "transcriptLengths": [
+    2567,
+    2572,
+    1994,
+    948,
+    1749
+  ],
+  "verificationStatus": "verified"
+}

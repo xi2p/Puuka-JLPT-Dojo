@@ -1,0 +1,36 @@
+{
+  "examId": "n1-2011-12",
+  "readingAnswers": [
+    "123433",
+    "1233443",
+    "243211",
+    "212444",
+    "1424421233",
+    "21431",
+    "12243",
+    "3124",
+    "322312143",
+    "1411",
+    "23",
+    "4423",
+    "43"
+  ],
+  "listeningAnswers": [
+    "232221",
+    "3311233",
+    "124132",
+    "2322111212331",
+    "3232"
+  ],
+  "audioMaxSeconds": 3675,
+  "excludedQuestionIds": [],
+  "source": "PDF page14 visually transcribed; same-source explanations checked independently of runtime; separate listening explanation cross-check and actual audio verification.",
+  "transcriptLengths": [
+    2512,
+    3114,
+    2637,
+    1138,
+    1992
+  ],
+  "verificationStatus": "verified"
+}

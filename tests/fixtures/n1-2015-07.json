@@ -1,0 +1,36 @@
+{
+  "examId": "n1-2015-07",
+  "readingAnswers": [
+    "412432",
+    "2421314",
+    "443121",
+    "432131",
+    "2343142321",
+    "32414",
+    "43112",
+    "4243",
+    "224313221",
+    "4313",
+    "12",
+    "3424",
+    "31"
+  ],
+  "listeningAnswers": [
+    "314322",
+    "2221342",
+    "313441",
+    "21132123231223",
+    "3114"
+  ],
+  "audioMaxSeconds": 3132,
+  "excludedQuestionIds": [],
+  "source": "Primary PDF standalone answer grid (page14) independently transcribed visually; all70 written answers cross-checked against separate16-page explanation PDF and primary explanations pages15–19. Full listening transcripts from primary PDF pages20–24 cross-checked with standalone listening PDF and actual offline recording ASR.37 listening questions in36 recorded segments; all36 number onsets measured and verified on final q2 MP3; last two subquestions share2947.06s. No speaker playback.",
+  "transcriptLengths": [
+    2981,
+    3092,
+    2544,
+    1328,
+    2331
+  ],
+  "verificationStatus": "verified"
+}

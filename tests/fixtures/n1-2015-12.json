@@ -1,0 +1,39 @@
+{
+  "examId": "n1-2015-12",
+  "readingAnswers": [
+    "123421",
+    "1312243",
+    "412343",
+    "423214",
+    "1413243214",
+    "14243",
+    "21314",
+    "4231",
+    "433242142",
+    "4233",
+    "23",
+    "1344",
+    "21"
+  ],
+  "listeningAnswers": [
+    "233212",
+    "2234314",
+    "414321",
+    "31322113312311",
+    "1214"
+  ],
+  "audioMaxSeconds": 3654,
+  "excludedQuestionIds": [
+    "r-51",
+    "r-63"
+  ],
+  "source": "Primary PDF standalone answer grid page14 independently transcribed; cross-checked with DOCX answer tables and PDF explanations pages15-19. Corrected DOCX keys36/37/54 to1/4/4. Questions51 and63 retain reference answers3/2 but excluded due to documented source/semantic ambiguity. Full listening original pages20-24 cross-checked with separate listening PDF and actual offline ASR;37 questions,36 recorded segments, final two share3497.4s. All36 final MP3 onsets verified, no speaker playback.",
+  "transcriptLengths": [
+    3201,
+    3092,
+    2050,
+    1324,
+    2391
+  ],
+  "verificationStatus": "verified"
+}

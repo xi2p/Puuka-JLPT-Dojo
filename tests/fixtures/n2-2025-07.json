@@ -1,0 +1,50 @@
+{
+  "examId": "n2-2025-07",
+  "readingOnly": true,
+  "readingAnswers": [
+    "42313",
+    "41324",
+    "314",
+    "3241142",
+    "24133",
+    "21243",
+    "231432314312",
+    "34212",
+    "2341",
+    "13344",
+    "13232221",
+    "23",
+    "143",
+    "34"
+  ],
+  "listeningAnswers": [],
+  "excludedQuestionIds": [
+    "r-1",
+    "r-2",
+    "r-3",
+    "r-4",
+    "r-5",
+    "r-6",
+    "r-7",
+    "r-8",
+    "r-9",
+    "r-10",
+    "r-11",
+    "r-12",
+    "r-13",
+    "r-34",
+    "r-53",
+    "r-70",
+    "r-71"
+  ],
+  "source": "Independent 2025.07.N2答案.jpg, cross-checked against PDF final answer page and question text. Source conflicts explicitly excluded; reference source answers retained.",
+  "verificationStatus": "reading_only_with_documented_source_issues",
+  "sourceIssues": [
+    "r1–r13 answer key mismatches visible questions; reference source numbers retained, excluded.",
+    "r10 original options duplicated.",
+    "r34 malformed source sentence and conflicting source answers, excluded.",
+    "r53 PDF4 vs image3 answer conflict, excluded.",
+    "r70/r71 referenced lecture listing absent, excluded.",
+    "No listening audio supplied; whole listening section omitted."
+  ]
+}

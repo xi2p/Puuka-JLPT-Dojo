@@ -1,0 +1,50 @@
+{
+  "examId": "n2-2024-07",
+  "readingAnswers": [
+    "41223",
+    "21341",
+    "143",
+    "1314423",
+    "13242",
+    "41323",
+    "423121342132",
+    "23413",
+    "2314",
+    "31322",
+    "41132434",
+    "34",
+    "412",
+    "22"
+  ],
+  "listeningAnswers": [
+    "21233",
+    "312344",
+    "21414",
+    "13221223131",
+    "213"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "source": "Independent answer summary PDF pages 1–2, extracted separately before authoring.",
+  "excludedQuestionIds": [
+    "r-42",
+    "r-56"
+  ],
+  "transcriptLengths": [
+    1950,
+    2626,
+    1423,
+    912,
+    1374
+  ],
+  "verificationStatus": "verified_with_documented_source_issues",
+  "sourceIssues": [
+    "r-42 option 4 truncated at お伝えしてもよろしいでしょう in PDF; excluded.",
+    "r-56 option 4 truncated at 知ることができ in PDF; excluded.",
+    "Problem 11 instruction incorrectly says three passages; actual four passages/eight questions retained.",
+    "r-45 preserves source 高温/温度 wording; arrangement and source key agree."
+  ]
+}

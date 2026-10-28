@@ -1,0 +1,41 @@
+{
+  "examId": "n1-2022-12",
+  "readingAnswers": [
+    "324143",
+    "1324321",
+    "421243",
+    "332412",
+    "1331423241",
+    "24213",
+    "3421",
+    "2112",
+    "23241233",
+    "413",
+    "44",
+    "342",
+    "32"
+  ],
+  "listeningAnswers": [
+    "24321",
+    "223321",
+    "32432",
+    "31132133221",
+    "431"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "excludedQuestionIds": [],
+  "source": "Actual66 written in13 groups and30 listening in5 groups;13 full reading blocks including vertical science essay and global research grant rules/four-applicant table reconstructed. Main22-page PDF compared with independent4-page answer grids and48-page detailed explanations/originals. All96 answers verified against actual option order and source context. OCR repaired from scans including menu placeholders and science paragraph. Full listening29 dialogues checked against complete final-track offline ASR;29 starts checked by focused word timestamps and10ms RMS, final two questions share2540.7s. Group5q1 uses actual story onset after common instructions. Original64kbps48000Hz mono MP3 retained byte-for-byte21793284bytes; full decode2724.144s, no playback.",
+  "verificationStatus": "verified",
+  "audioMaxSeconds": 2725,
+  "transcriptLengths": [
+    2536,
+    3013,
+    1968,
+    945,
+    1554
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "examId": "n1-2013-12",
+  "readingAnswers": [
+    "431312",
+    "3412132",
+    "114232",
+    "414134",
+    "4113233142",
+    "14231",
+    "23124",
+    "1142",
+    "434131323",
+    "4422",
+    "23",
+    "4112",
+    "23"
+  ],
+  "listeningAnswers": [
+    "334232",
+    "2134114",
+    "33241",
+    "31233113212312",
+    "1313"
+  ],
+  "audioMaxSeconds": 2874,
+  "excludedQuestionIds": [
+    "r-69"
+  ],
+  "source": "Printed answer table page14 transcribed independently and all70 written keys cross-checked against explanations pages15-20. r69 excluded because farm table row4 contradicts the footnote about guidance. All35 actual dialogue segments compared to offline ASR and number onsets measured on final unchanged64kbps audio without playback; final two questions share one dialogue start.",
+  "transcriptLengths": [
+    2943,
+    3197,
+    1716,
+    1286,
+    2196
+  ],
+  "verificationStatus": "verified"
+}

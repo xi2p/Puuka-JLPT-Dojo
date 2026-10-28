@@ -1,0 +1,32 @@
+{
+  "examId": "n2-2023-12",
+  "readingAnswers": [
+    "23142",
+    "33214",
+    "142",
+    "4241313",
+    "32413",
+    "43142",
+    "443121123324",
+    "11324",
+    "1423",
+    "13332",
+    "43142343",
+    "42",
+    "412",
+    "32"
+  ],
+  "listeningAnswers": [],
+  "listeningFinalLabels": [],
+  "source": "Separate original DOCX answer table, checked against scanned question paper; r-66 excluded for source-key conflict. Listening omitted by user authorization.",
+  "verificationStatus": "reading_key_checked_listening_skipped",
+  "excludedQuestionIds": [
+    "r-66"
+  ],
+  "readingOnly": true,
+  "transcriptLengths": [],
+  "sourceIssues": [
+    "Recording is a 961.123265-second answer/excerpt montage; listening omitted under explicit user authorization.",
+    "Reading 66: separate DOCX key 2 contradicts both passages supporting continuation (4); retained source key but excluded from scoring."
+  ]
+}

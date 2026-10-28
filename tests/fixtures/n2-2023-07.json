@@ -1,0 +1,32 @@
+{
+  "examId": "n2-2023-07",
+  "readingAnswers": [
+    "24413",
+    "13424",
+    "132",
+    "2314432",
+    "24123",
+    "42113",
+    "314241341232",
+    "14233",
+    "3241",
+    "42124",
+    "13431324",
+    "43",
+    "421",
+    "23"
+  ],
+  "listeningAnswers": [],
+  "listeningFinalLabels": [],
+  "source": "Visually transcribed separate solutions PDF pages 1–2. Preliminary independent key; full cross-check of explanations and question order still required before publication.",
+  "verificationStatus": "reading_key_checked_listening_skipped",
+  "sourceIssues": [
+    "Solutions page 3 labels reading question 1 as answer 3, contradicting summary page 1 (answer 2). Revised question paper page 1 visibly places うんちん in option 2, supporting summary answer 2. Other questions still require cross-check.",
+    "July 2023 source directory contains two PDFs only; no audio found among 2023-named files in source-library recursive inventory."
+  ],
+  "excludedQuestionIds": [
+    "r-41"
+  ],
+  "readingOnly": true,
+  "transcriptLengths": []
+}

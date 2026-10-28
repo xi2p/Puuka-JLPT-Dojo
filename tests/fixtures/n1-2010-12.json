@@ -1,0 +1,38 @@
+{
+  "examId": "n1-2010-12",
+  "readingAnswers": [
+    "322144",
+    "3141321",
+    "213241",
+    "132434",
+    "4213414223",
+    "41132",
+    "13432",
+    "1232",
+    "441333423",
+    "4422",
+    "434",
+    "4321",
+    "24"
+  ],
+  "listeningAnswers": [
+    "222314",
+    "2334242",
+    "22132",
+    "23231121132322",
+    "1224"
+  ],
+  "excludedQuestionIds": [
+    "r-50",
+    "r-57"
+  ],
+  "source": "PDF p14 key, independent DOC reading explanation and separate listening explanation PDF; documented source ambiguities r50/r57 excluded.",
+  "transcriptLengths": [
+    2014,
+    2801,
+    1583,
+    1008,
+    1667
+  ],
+  "verificationStatus": "verified_with_documented_source_issues"
+}

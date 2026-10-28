@@ -1,0 +1,41 @@
+{
+  "examId": "n1-2020-12",
+  "readingAnswers": [
+    "213414",
+    "4221423",
+    "423213",
+    "124133",
+    "4344131233",
+    "42431",
+    "2123",
+    "2311",
+    "412313132",
+    "242",
+    "44",
+    "4321",
+    "33"
+  ],
+  "listeningAnswers": [
+    "321242",
+    "2331213",
+    "214414",
+    "1333232113211",
+    "334"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "excludedQuestionIds": [],
+  "source": "Combined scanned PDF: written printed pp1-10, listening pp11-12, independent answer grid p13, explanations pp14-22, complete listening originals pp22-30 (physical3-12,13-14,15,16-24,24-32). Actual68 written: group7 has4,group9 has9,group10 has3;12 full reading blocks with all notes and factory-visit reservation/calendar/memo tables. Corrected copied group13 instruction (source says grant scheme, actual page is pottery factory visit), OCR and cropped letters checked against scans. All103 answers independently read from grid and checked against question context. Full35 listening items checked against real final-track offline ASR and source originals;34 numbered dialogues, last2-1/2-2 share2978.66s. Original160kbps16000Hz mono single q2 compression63717461 to14839532bytes; same decoded3185.722875s, no playback.",
+  "verificationStatus": "verified",
+  "audioMaxSeconds": 3186,
+  "transcriptLengths": [
+    2867,
+    3258,
+    2402,
+    1334,
+    1679
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "examId": "n1-2011-07",
+  "readingAnswers": [
+    "312234",
+    "3214322",
+    "414142",
+    "134123",
+    "4124232441",
+    "11423",
+    "32411",
+    "2433",
+    "413212334",
+    "1124",
+    "32",
+    "4141",
+    "23"
+  ],
+  "listeningAnswers": [
+    "344133",
+    "4233132",
+    "213223",
+    "3223231312213",
+    "2214"
+  ],
+  "audioMaxSeconds": 3333,
+  "excludedQuestionIds": [
+    "r-30",
+    "r-62"
+  ],
+  "source": "PDF p14 visually transcribed; independent explanation PDF cross-check and source audio verified; conflicts r30/r62 excluded.",
+  "transcriptLengths": [
+    2625,
+    2797,
+    2104,
+    1106,
+    1825
+  ],
+  "verificationStatus": "verified_with_documented_source_issues"
+}

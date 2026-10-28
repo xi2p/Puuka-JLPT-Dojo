@@ -1,0 +1,28 @@
+{
+  "examId": "n1-2014-12",
+  "readingAnswers": [
+    "342314",
+    "4242113",
+    "324142",
+    "231214",
+    "4321332143",
+    "41232",
+    "31241",
+    "3414",
+    "212231242",
+    "3242",
+    "43",
+    "4143",
+    "11"
+  ],
+  "listeningAnswers": [],
+  "listeningFinalLabels": [],
+  "source": "Separate native DOCX answer tables transcribed independently and checked against three written explanation PDFs, rendered source images and question semantics. r28 OCR initially misread3; visual PDF confirms2, matching Word key and grammar. Full written articles, footnotes and three embedded source images reconstructed. Listening omitted for absent verifiable full verbatim transcript.",
+  "verificationStatus": "reading_key_checked_listening_skipped",
+  "excludedQuestionIds": [],
+  "readingOnly": true,
+  "transcriptLengths": [],
+  "sourceIssues": [
+    "Full listening verbatim transcript is absent from the Word and all PDF sources; listening PDFs contain only scene/answer summaries. Offline ASR alone cannot establish a fully verified transcript without prohibited playback; all listening omitted under standing user authorization. Audio compression and ASR outputs remain only in tmp, never in runtime."
+  ]
+}

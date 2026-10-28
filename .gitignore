@@ -1,0 +1,55 @@
+# Runtime question banks are versioned; authoring files stay local
+/exams/**/*.pdf
+/exams/**/*.doc
+/exams/**/*.docx
+/exams/**/*.zip
+/exams/**/*.py
+/exams/**/*.log
+# Personal practice records
+/data/*
+!/data/.gitkeep
+*进度备份*.json
+*作答报告*.txt
+
+# Import/OCR/audio intermediates and local conversion models
+/tmp/
+/tools/
+/docs/batch-progress.json
+/docs/imports/
+/docs/*preview.png
+
+# Portable runtime, dependencies and build caches
+/.runtime/
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.npm/
+.pnpm-store/
+coverage/
+.nyc_output/
+/dist/
+/build/
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.local
+
+# Logs, temporary/editor files and OS metadata
+*.log
+*.tmp
+*.bak
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Downloaded runtime banks live in the separate library repository
+/exams/

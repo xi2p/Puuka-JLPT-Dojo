@@ -1,0 +1,42 @@
+{
+  "examId": "n1-2018-12",
+  "readingAnswers": [
+    "323412",
+    "1242433",
+    "224131",
+    "431421",
+    "2431333244",
+    "14424",
+    "12431",
+    "3431",
+    "412443231",
+    "3322",
+    "24",
+    "4113",
+    "22"
+  ],
+  "listeningAnswers": [
+    "421341",
+    "321434",
+    "134423",
+    "2112332213131",
+    "4231"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2",
+    "3-1",
+    "3-2"
+  ],
+  "excludedQuestionIds": [],
+  "source": "Independent printed answer grid PDF15 / printed13 checked against scans PDF3-14, written explanations PDF16-25 and separate answer DOCX; full listening originals PDF25-32 compared with actual final-track offline ASR. All12 written blocks, footnotes, lodging prices and reservation tables, four June calendars reconstructed. All35 listening questions,34 actual final-track number onsets, last pair shares cue. L5-1 price82000 verified against actual recording; best qualifying cheaper option is ダイヤ70000, printed key4 retained.",
+  "verificationStatus": "verified",
+  "audioMaxSeconds": 3261,
+  "transcriptLengths": [
+    2634,
+    2822,
+    2356,
+    1253,
+    2443
+  ]
+}

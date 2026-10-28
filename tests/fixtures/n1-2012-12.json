@@ -1,0 +1,38 @@
+{
+  "examId": "n1-2012-12",
+  "readingAnswers": [
+    "234324",
+    "4221412",
+    "124313",
+    "214133",
+    "3113422414",
+    "32431",
+    "32142",
+    "2233",
+    "122422313",
+    "4113",
+    "41",
+    "4144",
+    "23"
+  ],
+  "listeningAnswers": [
+    "221332",
+    "1241323",
+    "23242",
+    "12333112311232",
+    "3321"
+  ],
+  "audioMaxSeconds": 3503,
+  "excludedQuestionIds": [
+    "r-54"
+  ],
+  "source": "Answer table PDF page14 visually transcribed independently of runtime; all70 same-document explanation keys matched; r54 semantic ambiguity explicitly excluded. Listening35 actual dialogue segments and36 answer choices independently reasoned against final audio.",
+  "transcriptLengths": [
+    2773,
+    2769,
+    2155,
+    1253,
+    1964
+  ],
+  "verificationStatus": "verified"
+}

@@ -1,0 +1,51 @@
+{
+  "examId": "n2-2024-12",
+  "readingAnswers": [
+    "43412",
+    "34212",
+    "321",
+    "2441233",
+    "13412",
+    "32431",
+    "321432241413",
+    "24413",
+    "3221",
+    "22141",
+    "13414341",
+    "23",
+    "423",
+    "33"
+  ],
+  "listeningAnswers": [
+    "42122",
+    "343213",
+    "14121",
+    "31211322323",
+    "314"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "source": "Independent answer PDF pages 1–5; highlighted marks in question PDF are not used as answer key.",
+  "excludedQuestionIds": [
+    "r-50",
+    "r-51",
+    "r-53",
+    "r-55",
+    "r-57",
+    "r-58",
+    "r-61",
+    "r-62",
+    "l-1-2"
+  ],
+  "transcriptLengths": [
+    1719,
+    2027,
+    1767,
+    1106,
+    1431
+  ],
+  "verificationStatus": "verified_with_documented_source_issues"
+}

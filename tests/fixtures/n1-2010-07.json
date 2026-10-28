@@ -1,0 +1,36 @@
+{
+  "examId": "n1-2010-07",
+  "readingAnswers": [
+    "424311",
+    "3231242",
+    "241234",
+    "113243",
+    "4132341223",
+    "12431",
+    "31421",
+    "2434",
+    "141331244",
+    "1241",
+    "223",
+    "4432",
+    "41"
+  ],
+  "listeningAnswers": [
+    "241222",
+    "4433134",
+    "232344",
+    "33111333212321",
+    "3442"
+  ],
+  "audioMaxSeconds": 3505,
+  "excludedQuestionIds": [],
+  "source": "Answer summary PDF page 14 visually transcribed, cross-checked with separate 24-page explanation PDF before writing runtime.",
+  "transcriptLengths": [
+    2431,
+    2793,
+    1797,
+    1153,
+    1478
+  ],
+  "verificationStatus": "verified"
+}

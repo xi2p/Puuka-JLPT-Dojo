@@ -1,0 +1,28 @@
+{
+  "examId": "n1-2017-12",
+  "readingAnswers": [
+    "114323",
+    "4231242",
+    "432132",
+    "241413",
+    "1243334112",
+    "14322",
+    "41123",
+    "2432",
+    "313214412",
+    "3114",
+    "42",
+    "1323",
+    "13"
+  ],
+  "listeningAnswers": [],
+  "listeningFinalLabels": [],
+  "excludedQuestionIds": [],
+  "readingOnly": true,
+  "transcriptLengths": [],
+  "verificationStatus": "reading_key_checked_listening_skipped",
+  "source": "Printed independent answer grid (PDF page15 / printed13), checked against all written scans PDF3-12, explanation pages16-24 and semantics. Restored twelve full passages and footnotes, two certificate tables and Mike memo; all70 written questions scored.",
+  "sourceIssues": [
+    "Listening originals jump from printed23 to printed30 (PDF25 to26); printed24-29 absent. Whole listening omitted under standing user authorization; no invented transcript/audio/cues."
+  ]
+}

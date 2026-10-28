@@ -1,0 +1,36 @@
+{
+  "examId": "n1-2017-07",
+  "readingAnswers": [
+    "324112",
+    "1424323",
+    "423121",
+    "434133",
+    "2123414213",
+    "32144",
+    "34211",
+    "4342",
+    "314233121",
+    "3214",
+    "14",
+    "4321",
+    "23"
+  ],
+  "listeningAnswers": [
+    "112213",
+    "341242",
+    "141342",
+    "2112222132331",
+    "3223"
+  ],
+  "audioMaxSeconds": 2516,
+  "excludedQuestionIds": [],
+  "source": "Independent answer grid on scan PDF page15 visually transcribed and cross-checked with separate explanation pages16-25 and question content. Complete written70,12 reading blocks,all notes and full gym plan/registration/campaign posters rebuilt from scan pages3-14. Full listening originals on pages25-32 proofread against scans and matched with34 actual source recordings by offline ASR, announcer numbers and question content.35 listening questions in34 segments; final two share2375.00s. Corrected OCR errors, restored group2 item5 heading and source transcript使えますか to actual recording使いますか. Original34 full segments assembled in printed order, single q2 encode44100Hz stereo, decoded duration unchanged2515.6440625s,34 final cue envelopes correlate>.995. Complete final MP3 decode passes. No speaker output or playback.",
+  "transcriptLengths": [
+    2767,
+    2767,
+    2350,
+    1294,
+    2167
+  ],
+  "verificationStatus": "verified"
+}

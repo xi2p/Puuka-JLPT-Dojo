@@ -1,0 +1,60 @@
+{
+  "examId": "n1-2024-12",
+  "readingAnswers": [
+    "211343",
+    "1434213",
+    "224311",
+    "244321",
+    "4322141123",
+    "12413",
+    "3412",
+    "3412",
+    "42242331",
+    "231",
+    "43",
+    "234",
+    "11"
+  ],
+  "listeningAnswers": [
+    "32321",
+    "144122",
+    "42324",
+    "31322133122",
+    "413"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "excludedQuestionIds": [
+    "r-32",
+    "r-35",
+    "r-37"
+  ],
+  "source": "2024.12 N1:34-page native written file crosschecked with38 scanned booklet pages,5 scanned solution pages and separate answer-card PNG.66 written questions,13 complete passages including two continued long passages, vertical translation passage and complete volunteer-grant rules/table. Independent answer numbers reconciled to actual option contents: r29=2,r34=2,r55=3. r32 source answer1 conflicts with another viable printed option4; r35 answer-number/options conflict; r37 missing underlines/order and star conflict;3 excluded. Other distractor typos retained, not fabricated.13-page listening booklet plus17-page transcript source crosschecked with508 full-track ASR segments,29 focused windows,6 extra VAD/RMS windows and10ms final-track onset verification.30 listening questions/29 scenes, final pair shares2519.96 seconds.192kbps MP3 compressed once using libmp3lame q2,48000Hz stereo unchanged:65660308 to32328044 bytes,50.76% saved; both fully decode2735.568 seconds,delta0. No playback.",
+  "verificationStatus": "verified_with_documented_source_issues",
+  "audioMaxSeconds": 2736,
+  "transcriptLengths": [
+    2282,
+    2979,
+    1875,
+    1071,
+    1524
+  ],
+  "readingBlockLengths": [
+    828,
+    258,
+    220,
+    247,
+    281,
+    705,
+    650,
+    612,
+    656,
+    1056,
+    736,
+    1090,
+    886
+  ]
+}

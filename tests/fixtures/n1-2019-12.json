@@ -1,0 +1,42 @@
+{
+  "examId": "n1-2019-12",
+  "readingAnswers": [
+    "214123",
+    "4231431",
+    "142343",
+    "241342",
+    "1123323244",
+    "34211",
+    "34432",
+    "2313",
+    "34144134",
+    "4223",
+    "31",
+    "4123",
+    "22"
+  ],
+  "listeningAnswers": [
+    "312434",
+    "412212",
+    "411134",
+    "2312122213132",
+    "3342"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2",
+    "3-1",
+    "3-2"
+  ],
+  "excludedQuestionIds": [],
+  "source": "Scanned combined PDF: written pp1-11, independent answer grid p13, explanations pp14-22, full listening originals pp22-30 (physical pages3-14,15,16-24,24-32). Actual written count69, middle reading8. r60 grid/explanation answer4 contradicts explicit paragraph on media burden; corrected2 with source note. r57 explanation answer1 typo, independently verified grid4 retained.12 complete blocks, notes,grant eligibility/application/schedule tables restored from scans. Listening g3q2 printed originals omit spoken choices; restored from actual final-track offline ASR. All35 answers verified against original dialogue,34 number cues on final compressed MP3, final pair shares3355.95s. Local word timestamps resolve short-response cues5-8 and g3q3.",
+  "verificationStatus": "verified",
+  "audioMaxSeconds": 3517,
+  "transcriptLengths": [
+    2712,
+    2896,
+    2346,
+    1283,
+    2685
+  ]
+}

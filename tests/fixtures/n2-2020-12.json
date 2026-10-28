@@ -1,0 +1,38 @@
+{
+  "readingAnswers": [
+    "23431",
+    "13421",
+    "314",
+    "2143234",
+    "14132",
+    "24321",
+    "314214232314",
+    "32412",
+    "3134",
+    "23211",
+    "413321334",
+    "24",
+    "141",
+    "43"
+  ],
+  "listeningAnswers": [
+    "32432",
+    "423412",
+    "13433",
+    "22312231311",
+    "334"
+  ],
+  "source": "PDF page 15, visually transcribed; semantic content audit still pending",
+  "transcriptLengths": [
+    1913,
+    2288,
+    1983,
+    1089,
+    1238
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ]
+}

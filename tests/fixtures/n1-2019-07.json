@@ -1,0 +1,42 @@
+{
+  "examId": "n1-2019-07",
+  "readingAnswers": [
+    "442132",
+    "3411234",
+    "214312",
+    "432132",
+    "2341312314",
+    "23412",
+    "32241",
+    "3243",
+    "32214443",
+    "3141",
+    "32",
+    "4122",
+    "41"
+  ],
+  "listeningAnswers": [
+    "221412",
+    "433142",
+    "332123",
+    "2112312223113",
+    "3124"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2",
+    "3-1",
+    "3-2"
+  ],
+  "excludedQuestionIds": [],
+  "source": "Independent answer PDF1 visually checked, r60 is4 (native extraction misreads1).69 written questions not70:middle reading group has8. Complete scanned test14pages,5pages independent explanations;4pages full two-column listening originals restored in column reading order and checked against actual final-track offline ASR. All12 article blocks and museum A-D event/fee/application tables.34 distinct number cues on final audio, last two questions share2677.21s. Local ASR refined g4q5/q6 after preceding cue tones.",
+  "verificationStatus": "verified",
+  "audioMaxSeconds": 2821,
+  "transcriptLengths": [
+    2803,
+    2799,
+    2364,
+    1322,
+    2354
+  ]
+}

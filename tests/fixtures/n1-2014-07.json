@@ -1,0 +1,38 @@
+{
+  "examId": "n1-2014-07",
+  "readingAnswers": [
+    "124321",
+    "3412143",
+    "142233",
+    "432214",
+    "4314114223",
+    "41231",
+    "22312",
+    "2313",
+    "143432142",
+    "2314",
+    "41",
+    "4322",
+    "34"
+  ],
+  "listeningAnswers": [
+    "343232",
+    "1313132",
+    "244243",
+    "21312211122323",
+    "3341"
+  ],
+  "audioMaxSeconds": 2970,
+  "excludedQuestionIds": [
+    "r-22"
+  ],
+  "source": "Standalone answer images1-4 in the written DOCX transcribed visually;70 written answers cross-checked against three independent explanation PDFs. r22 key2 has usage conflict and is excluded. Listening2-2 image key2 corrected to3 against independent DOC transcript and actual recorded theme discussion.37 listening questions in36 actual segments, all content compared to offline ASR;36 waveform/ASR onsets verified on final q2 MP3; last two questions share start.",
+  "transcriptLengths": [
+    2832,
+    2856,
+    2356,
+    1324,
+    2084
+  ],
+  "verificationStatus": "verified"
+}

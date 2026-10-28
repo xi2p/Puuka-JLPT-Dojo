@@ -1,0 +1,52 @@
+{
+  "readingAnswers": [
+    "43124",
+    "11224",
+    "331",
+    "4324121",
+    "12434",
+    "34213",
+    "132241213443",
+    "13424",
+    "1312",
+    "23121",
+    "344122412",
+    "43",
+    "313",
+    "23"
+  ],
+  "listeningAnswers": [
+    "44233",
+    "423114",
+    "24313",
+    "12223332111",
+    "123"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "sourceListeningAnswers": [
+    "44233",
+    "433114",
+    "24313",
+    "12223332111",
+    "123"
+  ],
+  "answerCorrections": [
+    {
+      "questionId": "l-2-2",
+      "printedAnswer": 3,
+      "answer": 2,
+      "reason": "PDF p15 key says 3, but PDF p13 options and p26-27 transcript plus actual MP3 685.88-730.70 explicitly attribute victory to superior fitness, not coach instructions."
+    }
+  ],
+  "transcriptLengths": [
+    1938,
+    2177,
+    1692,
+    989,
+    1234
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "examId": "n1-2021-12",
+  "readingAnswers": [
+    "431231",
+    "1424233",
+    "313242",
+    "314421",
+    "3243242311",
+    "14421",
+    "1342",
+    "3442",
+    "433212321",
+    "1411",
+    "223",
+    "423",
+    "22"
+  ],
+  "listeningAnswers": [
+    "211121",
+    "4334133",
+    "414224",
+    "2213233211131",
+    "212"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "excludedQuestionIds": [
+    "r-22",
+    "r-54",
+    "r-68"
+  ],
+  "source": "Main43-page PDF: written2-19, original listening21-29, answer30-31, transcripts32-43. Independent40-page explanations compared. Actual69 written and35 listening;12 full reading blocks and both classroom/hall/equipment application tables reconstructed. Main answer grid r19 andr21 corrected2 and1 against actual option order, context and independent explanations; other differing option-order answers mapped to main question. Source malformed distractors r22, incomplete r54 and impossible projector conditions r68 preserved and excluded. Full35 listening originals checked against complete final-track offline ASR;34 starts with word timestamps and RMS, final pair shares3279.7s. Original64kbps44100mono MP3 retained byte-for-byte27794761bytes, no lossy re-encode, full decode3474.338s, no playback.",
+  "verificationStatus": "verified",
+  "audioMaxSeconds": 3475,
+  "transcriptLengths": [
+    2789,
+    3725,
+    2251,
+    1169,
+    1520
+  ]
+}

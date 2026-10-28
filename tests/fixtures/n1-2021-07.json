@@ -1,0 +1,41 @@
+{
+  "examId": "n1-2021-07",
+  "readingAnswers": [
+    "242331",
+    "3244121",
+    "143221",
+    "213434",
+    "2114314322",
+    "41132",
+    "4231",
+    "2432",
+    "134141423",
+    "3143",
+    "34",
+    "2441",
+    "21"
+  ],
+  "listeningAnswers": [
+    "313243",
+    "4332241",
+    "143233",
+    "3131322322211",
+    "324"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "excludedQuestionIds": [],
+  "source": "32-page scanned PDF: written physical3-13 and guide continuation14; listening14-15; independent answer grid16; complete listening originals25-32. Actual69 written and35 listening;12 full reading blocks including notes and orchestra ticket pricing/swap rules. Corrected r43むしろ,r68 40000yen, speaker labels and OCR. Independent answers checked against scans and context. Final MP3 verified with full offline ASR,34 numbered dialogue starts; last pair shares2924.3s. Single q2 compression61725965 to14102900bytes; decoded3086.146875s unchanged, no playback.",
+  "verificationStatus": "verified",
+  "audioMaxSeconds": 3087,
+  "transcriptLengths": [
+    2711,
+    3162,
+    2523,
+    1167,
+    1497
+  ]
+}

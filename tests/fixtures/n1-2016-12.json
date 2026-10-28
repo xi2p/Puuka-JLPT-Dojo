@@ -1,0 +1,36 @@
+{
+  "examId": "n1-2016-12",
+  "readingAnswers": [
+    "123142",
+    "2131244",
+    "414323",
+    "143213",
+    "4231334214",
+    "21432",
+    "21134",
+    "3231",
+    "342214233",
+    "4212",
+    "33",
+    "2144",
+    "14"
+  ],
+  "listeningAnswers": [
+    "142122",
+    "2443412",
+    "243312",
+    "23231332123123",
+    "2212"
+  ],
+  "audioMaxSeconds": 3090,
+  "excludedQuestionIds": [],
+  "source": "Independent answer grid on scan PDF page15 visually transcribed, checked against explanations and question content. Native PDF has stale July problem13 instructions and omits the library services article/table; rebuilt from scan pages12-13. All70 written questions,12 full blocks and notes proofread against scan. Full original listening from scan pages25-32 corrected for OCR errors and matched against actual36-segment recording using offline ASR, number announcements and final-track waveform.37 listening questions; final two share2914.81 seconds. Source/final decoded durations identical3087.9085625s;36 cue-window envelopes correlate above.995; complete MP3 decode passes. No audio playback.",
+  "transcriptLengths": [
+    3242,
+    3307,
+    2163,
+    1350,
+    2513
+  ],
+  "verificationStatus": "verified"
+}

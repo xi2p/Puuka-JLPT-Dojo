@@ -1,0 +1,44 @@
+{
+  "examId": "n1-2022-07",
+  "readingAnswers": [
+    "133424",
+    "4221133",
+    "424331",
+    "221214",
+    "2314123422",
+    "41324",
+    "3211",
+    "3143",
+    "331322144",
+    "243",
+    "23",
+    "4124",
+    "12"
+  ],
+  "listeningAnswers": [
+    "321232",
+    "2322313",
+    "441413",
+    "3312233111312",
+    "421"
+  ],
+  "listeningFinalLabels": [
+    "1",
+    "2-1",
+    "2-2"
+  ],
+  "excludedQuestionIds": [
+    "r-6",
+    "r-40"
+  ],
+  "source": "Main21-page question PDF and independent78-page answers/explanations/transcripts compared against full final-track offline ASR. Actual68 written and35 listening;12 full reading blocks, external-course subsidy table and elderly-care illustration reconstructed. Answer grid mapped/corrected to main actual options at r11,r13,r21,r43,r53,r58. Source r6 inflection mismatch and r40 concert/contest typo preserved and excluded. Impossible source payment date3/81 preserved with explanatory note; submission deadlines unaffected. Listening grid errors g4q9 and g5q2-2 corrected1 against detailed explanations and actual content. Full35 listening originals;34 final-track starts with ASR and RMS; final pair shares3346.66s. Original64kbps44100mono MP3 retained byte-for-byte28459540bytes; complete decode3557.4335s; no playback.",
+  "verificationStatus": "verified",
+  "audioMaxSeconds": 3558,
+  "transcriptLengths": [
+    2740,
+    4004,
+    2519,
+    1227,
+    1447
+  ]
+}

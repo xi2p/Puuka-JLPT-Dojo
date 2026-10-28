@@ -1,0 +1,38 @@
+{
+  "examId": "n1-2013-07",
+  "readingAnswers": [
+    "424331",
+    "3221313",
+    "244214",
+    "214133",
+    "4241234123",
+    "24131",
+    "31243",
+    "4343",
+    "121423413",
+    "2423",
+    "21",
+    "1342",
+    "12"
+  ],
+  "listeningAnswers": [
+    "421234",
+    "322322",
+    "423313",
+    "12222332312131",
+    "2214"
+  ],
+  "audioMaxSeconds": 3466,
+  "excludedQuestionIds": [
+    "r-51"
+  ],
+  "source": "Printed answer table page13 visually transcribed independently; native explanation covers written1-58, scanned explanation page19 independently supports59-70. r51 printed/explanation key2 conflicts with text and option4; excluded. Listening1-1 printed3 corrected to4 against independent transcript and actual recording. All35 dialogue segments compared to final audio ASR and35 number onsets measured without playback.",
+  "transcriptLengths": [
+    2619,
+    2213,
+    2637,
+    1193,
+    2153
+  ],
+  "verificationStatus": "verified"
+}

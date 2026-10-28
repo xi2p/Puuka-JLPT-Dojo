@@ -1,0 +1,33 @@
+{
+  "examId": "n1-2023-12",
+  "readingAnswers": [
+    "221341",
+    "3123144",
+    "324123",
+    "424311",
+    "1332421232",
+    "23134",
+    "4312",
+    "2412",
+    "21121231",
+    "342",
+    "43",
+    "443",
+    "43"
+  ],
+  "listeningAnswers": [],
+  "listeningFinalLabels": [],
+  "excludedQuestionIds": [
+    "r-35",
+    "r-59",
+    "r-60"
+  ],
+  "source": "33-page scanned written paper checked against rendered originals and independent DOCX answer key. 66 written items,13 complete reading blocks, vertical text transcribed horizontally, both buyback-service tables and all footnotes reconstructed. DOCX r35=2,r59=2,r60=4 conflict with grammar/passage evidence favoring4,3,1 respectively; source references retained and those3 items excluded,63 scored. All remaining keys checked against options and context. Listening original PDF explicitly labeled recollection version. Its page5 lower-right lines in question2-5 are physically erased/clipped (methane-gas clause and cow-shed clause), with additional transcription errors such as 高山/中山 speaker naming. Existing offline tiny ASR on the complete final track and focused segments cannot reliably recover/verify the full verbatim original. All listening omitted under standing authorization; not treating recollection or noisy ASR as verified verbatim text. Audio compression/ASR remain only in tmp.",
+  "verificationStatus": "reading_key_checked_listening_skipped",
+  "readingOnly": true,
+  "transcriptLengths": [],
+  "sourceIssues": [
+    "Listening original PDF explicitly labeled recollection version. Its page5 lower-right lines in question2-5 are physically erased/clipped (methane-gas clause and cow-shed clause), with additional transcription errors such as 高山/中山 speaker naming. Existing offline tiny ASR on the complete final track and focused segments cannot reliably recover/verify the full verbatim original. All listening omitted under standing authorization; not treating recollection or noisy ASR as verified verbatim text. Audio compression/ASR remain only in tmp.",
+    "r35,59,60 source answer conflicts retained and excluded."
+  ]
+}

@@ -70,3 +70,22 @@
 .source-layout .source-documents{margin-left:2em}
 .source-layout .source-receipt-note{margin:0 0 0 1em;text-indent:-1em;line-height:1.8}
 .source-memo{border-block:1px solid currentColor;width:fit-content;max-width:100%;margin:1em auto;text-align:center;padding:.2em 1em;line-height:1.8}
+.source-layout.source-hotel>.source-title{font-size:1.3em;margin:0 0 1em}
+.source-hotel h4{font-size:1em;margin:1em 0 .15em}
+.source-hotel .source-table-heading{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:0 .5em}
+.source-hotel .source-table-heading>span{white-space:nowrap}
+.source-hotel table{border-collapse:collapse;margin:0;line-height:1.65;color:inherit}
+.source-hotel table th,.source-hotel table td{border:1px solid currentColor;padding:.35em .5em;color:inherit;vertical-align:middle}
+.source-hotel table th{background:#e5e5e0;font-weight:600}
+.source-hotel .source-room-table{min-width:590px;width:100%;font-size:.92em}
+.source-hotel .source-room-table th{text-align:left;white-space:nowrap}
+.source-hotel .source-price-table{min-width:760px;width:100%;font-size:.92em;text-align:center;font-variant-numeric:tabular-nums}
+.source-hotel .source-price-table td{white-space:nowrap}
+.source-hotel .source-price-table th,.source-hotel .source-price-table td{text-align:center}
+.source-hotel .source-plan-label{writing-mode:vertical-rl;text-orientation:upright;letter-spacing:.35em}
+.source-hotel .source-hotel-note{font-size:.92em;line-height:1.85;margin:.35em .7em .8em}
+.source-hotel .source-meal-heading{font-weight:600;margin:.7em 0 .3em}
+.source-hotel .source-meal-details{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:.8em .8em;margin:.4em 0 .8em 1.5em}
+.source-hotel .source-meal-details dt{border:1px solid currentColor;align-self:start;line-height:1.5;font-weight:600;padding:0 .1em}
+.source-hotel .source-meal-details dd{margin:0}
+.source-hotel .source-meal-booking{margin:0 0 1em 1.5em}

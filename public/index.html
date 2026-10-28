@@ -9,9 +9,10 @@
   <link rel="stylesheet" href="/styles.css">
 </head>
 <body>
+  <div id="connection-banner" class="connection-banner" role="alert" hidden><span><strong>已与本机服务断开连接。</strong>请重新运行「启动网站.cmd」，并保留当前页面。未保存的操作暂时无法写入本机文件。</span><button id="connection-retry" type="button">重新检测</button></div>
   <div id="app"><div class="loading">Puuka JLPT Dojo <span>正在打开本地练习…</span></div></div>
   <div id="toast" role="status" aria-live="polite"></div>
-  <dialog id="modal"><div id="modal-body"></div></dialog>
+  <dialog id="modal"><p id="modal-connection-notice" class="modal-connection-notice" role="alert" hidden>已与本机服务断开连接。请重新运行「启动网站.cmd」，并保留当前页面。</p><div id="modal-body"></div></dialog>
   <script type="module" src="/app.js"></script>
 </body>
 </html>

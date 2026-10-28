@@ -1,3 +1,4 @@
+import {ServiceConnection} from './service-connection.js';
 import {ExamLibrary,questionsOf,validProgress,isScored,scoreAnswers} from './exam-library.js';
 import {ListeningSource} from './listening-source.js';
 import {QuestionAudioPlayer,audioTimestamp} from './question-audio.js';
@@ -12,6 +13,7 @@ let state = {version:1,activeId:null,attempts:[],updatedAt:0}, view = {type:'hom
 let fontSize = readFontSize();
 let libraryIssues=[];
 let updateInfo=null;
+let connection=null;
 if(!Number.isFinite(fontSize)) fontSize=17;
 fontSize=Math.max(15,Math.min(22,fontSize));
 const library=new ExamLibrary();
@@ -40,7 +42,7 @@ function dialog(content){ $('#modal-body').innerHTML=content; if(!modal.open) mo
 function modalButtons(buttons){ return `<div class="modal-actions">${buttons}</div>`; }
 function setRoute(hash){ if(location.hash===hash) route(); else location.hash=hash; }
 function saveLocal(){state.updatedAt=Date.now();try{localStorage.setItem(STORAGE,JSON.stringify(state));return true;}catch{toast('浏览器存储已满，正在尝试保存到本地文件');return false;}}
-function updateSaveLabel(text,error=false){$$('.save-state').forEach(el=>{el.textContent=text;el.classList.toggle('error',error);});}
+function updateSaveLabel(text,error=false){if(connection?.connected===false){text='服务已断开';error=true;}$$('.save-state').forEach(el=>{el.textContent=text;el.classList.toggle('error',error);});}
 function persist(immediate=false){
   saved=false; const localOK=saveLocal(); updateSaveLabel(localOK?'已暂存 · 正在写入本地':'正在保存…');
   clearTimeout(saveTimer);
@@ -51,10 +53,10 @@ function flush(){
   clearTimeout(saveTimer);
   const snapshot=JSON.stringify(state);
   saveChain=saveChain.catch(()=>false).then(async()=>{
-    try{const response=await fetch('/api/state',{method:'POST',headers:{'Content-Type':'application/json'},body:snapshot});if(!response.ok)throw new Error();
+    try{const response=await fetch('/api/state',{method:'POST',headers:{'Content-Type':'application/json'},body:snapshot,signal:AbortSignal.timeout(5000)});if(!response.ok)throw new Error();
       saved=JSON.stringify(state)===snapshot;
       updateSaveLabel(saved?'已保存到本地':'已暂存 · 正在写入本地');return true;
-    }catch{updateSaveLabel('文件保存失败 · 请导出备份',true);return false;}
+    }catch{updateSaveLabel('文件保存失败 · 请导出备份',true);connection?.check(true);return false;}
   });return saveChain;
 }
 function validImport(s){return validProgress(s,library);}
@@ -115,7 +117,7 @@ function groupLink(a,s,g,i){const count=answered(a,g.questions);return `<button 
 function shell(a,content){
   const review=a.status==='submitted';
   const section=exam.sections.find(s=>s.id===view.section)||exam.sections[0];
-  return `<header class="topbar workspace-top">${brand}<div class="top-right"><button class="text-button" data-action="save-exit">${review?'返回试卷库':'保存并退出'}</button><button class="btn" data-action="${review?'show-result':'submit'}">${review?'作答报告':'提交试卷'} <span class="arrow">${review?'↗':'→'}</span></button></div></header><div class="exam-layout"><aside class="sidebar"><div class="side-kicker">${exam.year}.${String(exam.month).padStart(2,'0')} / JLPT</div><h2 class="side-title">${exam.level} 日本語能力試験</h2>${exam.sections.filter(s=>s.groups.length).map((s,n)=>`<button class="section-tab ${view.section===s.id?'current':''}" data-action="section" data-section="${s.id}"><span class="num">0${n+1}</span>${s.shortTitle}</button><div class="group-nav">${s.groups.map((g,i)=>groupLink(a,s,g,i)).join('')}</div>`).join('')}<div class="side-bottom"><div class="side-progress"><span>整卷作答进度</span><span class="total-count">${answered(a)} / ${allQuestions.length}</span></div><div class="progress-track"><i class="total-progress" style="width:${percent(answered(a),allQuestions.length)}%"></i></div><p>● 已答　⚑ 稍后检查<br>答案、笔记与音频位置自动保存</p><button class="text-button" data-action="overview">查看整卷答题卡 ↗</button></div></aside><main class="exam-main"><div class="content-width"><div class="exam-toolbar"><div class="breadcrumbs">${examLabel(exam)} <span style="margin:0 10px">/</span> <b>${view.type==='results'?'作答报告':section.title}</b></div><div class="toolbar-controls"><div class="font-controls"><button data-action="font-down" aria-label="缩小题目字号">A−</button><button data-action="font-up" aria-label="放大题目字号">A+</button></div><span class="save-state">${saved?'已保存到本地':'正在保存…'}</span><div class="timer"><span class="timer-label">${review?'总用时':'本部分用时'}</span><span id="timer-value">${duration(review?a.elapsed.r+a.elapsed.l:a.elapsed[view.section])}</span></div></div></div>${view.type!=='results'?`<select class="mobile-section-select" id="group-select" aria-label="选择問題">${exam.sections.filter(s=>s.groups.length).map(s=>`<optgroup label="${s.title}">${s.groups.map((g,i)=>`<option value="${s.id}:${i}" ${s.id===view.section&&i===view.index?'selected':''}>問題 ${g.number} · ${g.title} (${answered(a,g.questions)}/${g.questions.length})</option>`).join('')}</optgroup>`).join('')}</select>`:''}${content}</div></main></div>`;
+  return `<header class="topbar workspace-top">${brand}<div class="top-right"><button class="text-button" data-action="save-exit">${review?'返回试卷库':'保存并退出'}</button><button class="btn" data-action="${review?'show-result':'submit'}">${review?'作答报告':'提交试卷'} <span class="arrow">${review?'↗':'→'}</span></button></div></header><div class="exam-layout"><aside class="sidebar"><div class="side-kicker">${exam.year}.${String(exam.month).padStart(2,'0')} / JLPT</div><h2 class="side-title">${exam.level} 日本語能力試験</h2>${exam.sections.filter(s=>s.groups.length).map((s,n)=>`<button class="section-tab ${view.section===s.id?'current':''}" data-action="section" data-section="${s.id}"><span class="num">0${n+1}</span>${s.shortTitle}</button><div class="group-nav">${s.groups.map((g,i)=>groupLink(a,s,g,i)).join('')}</div>`).join('')}<div class="side-bottom"><div class="side-progress"><span>整卷作答进度</span><span class="total-count">${answered(a)} / ${allQuestions.length}</span></div><div class="progress-track"><i class="total-progress" style="width:${percent(answered(a),allQuestions.length)}%"></i></div><p>● 已答　⚑ 稍后检查<br>答案、笔记与音频位置自动保存</p><button class="text-button" data-action="overview">查看整卷答题卡 ↗</button></div></aside><main class="exam-main"><div class="content-width"><div class="exam-toolbar"><div class="breadcrumbs">${examLabel(exam)} <span style="margin:0 10px">/</span> <b>${view.type==='results'?'作答报告':section.title}</b></div><div class="toolbar-controls"><div class="font-controls"><button data-action="font-down" aria-label="缩小题目字号">A−</button><button data-action="font-up" aria-label="放大题目字号">A+</button></div><span class="save-state">${connection?.connected===false?'服务已断开':saved?'已保存到本地':'正在保存…'}</span><div class="timer"><span class="timer-label">${review?'总用时':'本部分用时'}</span><span id="timer-value">${duration(review?a.elapsed.r+a.elapsed.l:a.elapsed[view.section])}</span></div></div></div>${view.type!=='results'?`<select class="mobile-section-select" id="group-select" aria-label="选择問題">${exam.sections.filter(s=>s.groups.length).map(s=>`<optgroup label="${s.title}">${s.groups.map((g,i)=>`<option value="${s.id}:${i}" ${s.id===view.section&&i===view.index?'selected':''}>問題 ${g.number} · ${g.title} (${answered(a,g.questions)}/${g.questions.length})</option>`).join('')}</optgroup>`).join('')}</select>`:''}${content}</div></main></div>`;
 }
 function renderQuestion(q,a){
   const selected=a.answers[q.id],review=a.status==='submitted';
@@ -297,8 +299,29 @@ async function checkProgramUpdate(){
 }
 async function applyProgramUpdate(){
   audio.pause();if(!await flush())return toast('请先导出进度备份，再更新程序');
-  dialog('<h2>正在更新程序与题库</h2><p role="status">下载与更新可能需要几分钟，请保持服务窗口和页面打开。</p>');
+  dialog('<h2>正在更新程序</h2><p role="status">下载与更新可能需要几分钟，请保持服务窗口和页面打开。</p>');
   try{const result=await maintenanceRequest('/api/update/apply');dialog(`<h2>${result.updated?'更新完成，请重启':'已经是最新版本'}</h2><p>${result.updated?'关闭网站的服务窗口，重新运行「启动网站.cmd」，然后按 Ctrl+F5 刷新页面。':'无需更新。'}</p>${modalButtons('<button class="btn" data-action="close-modal">知道了</button>')}`);}
   catch(error){dialog(`<h2>更新未完成</h2><p>${escape(error.message)}</p><p>可以稍后重试，或关闭服务后双击「更新网站.cmd」。</p>${modalButtons('<button class="btn" data-action="close-modal">关闭</button>')}`);}
 }
+connection=new ServiceConnection({
+  isVisible:()=>document.visibilityState==='visible',
+  onChange(connected,previous){
+    $('#connection-banner').hidden=connected;$('#modal-connection-notice').hidden=connected;
+    if(!connected){
+      if(stateReady)saveLocal();
+      updateSaveLabel('服务已断开',true);
+    }else if(previous===false){
+      toast('已重新连接本机服务');
+      if(stateReady&&!saved)flush();
+      else updateSaveLabel(saved?'已保存到本地':'正在保存…');
+    }
+  }
+});
+$('#connection-retry').addEventListener('click',()=>connection.check(true));
+for(const event of ['pointerdown','keydown','input'])document.addEventListener(event,()=>connection.check(),{passive:true});
+window.addEventListener('focus',()=>connection.check(true));
+document.addEventListener('visibilitychange',()=>{if(document.visibilityState==='visible')connection.check(true);});
+window.addEventListener('pagehide',()=>connection.stop());
+window.addEventListener('pageshow',()=>connection.start());
+connection.start();
 init();

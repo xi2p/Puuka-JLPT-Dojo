@@ -1,0 +1,189 @@
+{
+  "source": "Local 2024 July N1 pdf1 pages 1–20; pdf3 printed choices; no audio playback",
+  "sourceTextCorrections": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "from": "(注 )ドラマ",
+      "to": "(注1)ドラマ",
+      "sourcePage": 10
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "from": "(1カブトムシ",
+      "to": "(1)カブトムシ",
+      "sourcePage": 11
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "from": "(②)突然変異",
+      "to": "(2)突然変異",
+      "sourcePage": 11
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "from": "③3)淘汰される",
+      "to": "(3)淘汰される",
+      "sourcePage": 11
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "from": "(注」)うねり",
+      "to": "(注1)うねり",
+      "sourcePage": 12
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 3,
+      "from": "(注 )論敵",
+      "to": "(注1)論敵",
+      "sourcePage": 13
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 3,
+      "from": "(注 4血肉化する",
+      "to": "(注4)血肉化する",
+      "sourcePage": 13
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "from": "(注 )野放図にする",
+      "to": "(注1)野放図にする",
+      "sourcePage": 18
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "from": "<th>図書館</th>",
+      "to": "<th aria-label=\"図書館\"></th>",
+      "sourcePage": 20
+    }
+  ],
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44"
+      ],
+      "textSha256": "816e133a23705f5d99400eff375b374482c0fe557901aa4eab3a843865b6754e"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-45"
+      ],
+      "textSha256": "156d8a19338ef7fb8785093be874cc98d3bf46f0d511d75be6a6383becd6262a"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "346267e794e7beb572071369743b2ae348d688fc1660e923efb036d246121634"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "0a0c4778a74ca35bd96b1f85365622c9d5050cb43497e6208e9b8f11a93340c2"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "d9f545456b3000461225a7433a02a7d06d342838121706261bde475039493baf"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-49",
+        "r-50"
+      ],
+      "textSha256": "b3994b518151706ac93e7c8398e6650c6f6f004c8f6f2862adf41e5d7d372196"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "ae759c8ef0100b8918a1e64c3ab28474dc0ec5e515a1844d595d9f8971682ae8"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "f58b633ed63ffbfcff940c4c351defebda0925d8cabc8e436b735e20d753f7cd"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-55",
+        "r-56"
+      ],
+      "textSha256": "fe969f6c0f435de0bc567a942d26b35625e99cb1dd6ec8b730d907e67f398b13"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-57",
+        "r-58",
+        "r-59"
+      ],
+      "textSha256": "272da49d25e0ea83aeb0a4487bb3ce7dee88bf7329d2189e8919bfa1bf90eb40"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61"
+      ],
+      "textSha256": "06170acef9c90683fdea91b5bbc1370133c5ddb449a898b351fde97f1c588dfb"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-62",
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "24d4739495d9d367a6a2c62c892742aeb790937e4ba1c7f14786dbacbb94788e"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66"
+      ],
+      "textSha256": "f421dbce2f70e8b18a3425177e419548088a0ec0cf62a5ba217079eb7d34be3e"
+    }
+  ],
+  "questionContentSha256": "7806059619ec95946e2dc76cfc7604a94f3b480623b5c72272a014ca17d0be26",
+  "listeningContentSha256": "208dbfde51e43244c430ee92a78c3e9db736811445f2ca0c83e4275444c67cda"
+}

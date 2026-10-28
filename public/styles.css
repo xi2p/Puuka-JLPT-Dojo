@@ -59,6 +59,11 @@
 .source-layout .source-vertical-scroll{max-width:100%;overflow-x:auto;direction:rtl;margin:.5em 0}
 .source-layout .source-vertical{writing-mode:vertical-rl;text-orientation:mixed;height:28em;max-height:70vh;width:max-content;max-width:none;direction:ltr;overflow-wrap:normal;box-sizing:content-box}
 .source-layout .source-vertical>p{text-align:start}
+.source-parenthesized::before{content:"("}.source-parenthesized::after{content:")"}
+.source-library .source-library-heading{font-size:1em;line-height:1.7;margin:.8em 0 .15em;font-weight:600}
+.source-library .source-list-line{margin:0;padding-left:1em;text-indent:-1em;text-align:left}
+.source-library .source-library-table{width:100%;min-width:600px;border-collapse:collapse;font-size:.95em;line-height:1.65}
+.source-library .source-library-table th,.source-library .source-library-table td{border:1px solid currentColor;background:transparent;text-align:center;padding:.4em .5em;font-weight:400}
 .source-layout .source-grant h4{font-size:1em;margin:1em 0 .15em}
 .source-layout .source-grant h4 small{font-size:.85em;font-weight:400}
 .source-layout .source-grant>p{margin:0 0 0 1em;line-height:1.85}

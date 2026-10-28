@@ -1,0 +1,117 @@
+{
+  "examId": "n2-2017-07",
+  "source": "Original scanned paper pages 4–11; HD compilation used for legibility, original paragraph boundaries take precedence.",
+  "canonicalization": "Strip HTML and whitespace; normalize parenthesized gap labels 50–54 to digits.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "465b1b5fc78c30f60c5acf0d23f77a755869e9542db9abbad78dde9cda87fc9f"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "01ef5a166e27b39f2dbe54d0337247df7322f8502449ae839338fe988fc4f7b9"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "67a645e28b8da9d40aca96748a30e7281a378c4f32a662f28af565675a2a9076"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "9b1948e55e99ef01ed102c895f195e2dcdd4b5f8883900aa8748295595a164c5"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "9d94f099b4eb872a138c0e27f5308e7f377c0661ab785e5da159297b1f13f502"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "178f6b2d3dec60ada9eb2913f33c8758c6e242cd5282f73c5ce94dfc122bf1e1"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "2fedee0b89f1338dc4af095f847637bb221c7250b2a794040b78fc71585f4e94"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "96809f7e6fa6e289439c5bdd4c34dd40bbe0d0410c268aa6ff5f528161eeae86"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "6c75b5d7b23123d53b15387397635b179afce9ae76e637ea84f3e4458a044d0a"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "442c5fdd777f3d90f5d911bd176cd45ab067e4f5b89bb62cb9eb4b8e994150cb"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "8a5f1f040cdaa0059d9d9a33437d40e356195fbdec9fab2e7a9c5b2ef074d962"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "33a748940f9ca0d00ae041bf40733376262e236933bf61becc8fd6a4a6ae01bb"
+    }
+  ]
+}

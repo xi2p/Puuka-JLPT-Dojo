@@ -41,6 +41,36 @@
 .source-layout .source-email{border-block:1px solid currentColor;padding:1em 0;margin:.5em 0}
 .source-layout .source-email-body{margin:1.4em 0}
 .source-layout .source-email-body p{line-height:1.95;text-align:left}
+.source-layout .source-note-ref{font-size:.65em;line-height:0;font-weight:400;white-space:nowrap}
+.source-layout .source-mail-card{border-bottom:3px double currentColor;margin:.5em 0;padding-bottom:.7em}
+.source-layout .source-mail-meta{border-block:3px double currentColor;padding:.6em 0;margin-bottom:.8em}
+.source-layout .source-mail-card>.source-mail-greeting,.source-layout .source-mail-card>.source-mail-closing,.source-layout .source-mail-card>.source-mail-signature{margin-top:1.3em}
+.source-layout .source-buyback-brand{font-weight:600;font-style:italic;border-bottom:3px double currentColor;width:fit-content;padding:0 .5em;margin:0 0 .6em}
+.source-layout .source-buyback h4{font-size:1em;margin:.7em 0 .3em}
+.source-layout .source-buyback-description{padding-left:1em}
+.source-layout .source-buyback-description p{margin:0;text-indent:1em}
+.source-buyback .source-buyback-table{min-width:660px;width:100%;border-collapse:collapse;font-size:.95em;line-height:1.8}
+.source-buyback .source-buyback-table th,.source-buyback .source-buyback-table td{border:1px solid currentColor;padding:.3em .5em;background:transparent;font-weight:400;vertical-align:middle}
+.source-buyback .source-buyback-table th:first-child,.source-buyback .source-buyback-table td:first-child{width:16%;border-right:3px double currentColor;text-align:center;white-space:nowrap}
+.source-buyback .source-buyback-flow td{text-align:left}
+.source-buyback .source-buyback-limits thead th{border-bottom:3px double currentColor;text-align:center}
+.source-buyback .source-buyback-limits td{text-align:center}
+.source-buyback .source-buyback-limits tr:last-child td:last-child{text-align:left;width:55%}
+.source-layout .source-note-ref{font-size:.65em;line-height:0;font-weight:400;white-space:nowrap}
+.source-layout .source-mail-card{border-bottom:3px double currentColor;margin:.5em 0;padding-bottom:.7em}
+.source-layout .source-mail-meta{border-block:3px double currentColor;padding:.6em 0;margin-bottom:.8em}
+.source-layout .source-mail-card>.source-mail-greeting,.source-layout .source-mail-card>.source-mail-closing,.source-layout .source-mail-card>.source-mail-signature{margin-top:1.3em}
+.source-layout .source-buyback-brand{font-weight:600;font-style:italic;border-bottom:3px double currentColor;width:fit-content;padding:0 .5em;margin:0 0 .6em}
+.source-layout .source-buyback h4{font-size:1em;margin:.7em 0 .3em}
+.source-layout .source-buyback-description{padding-left:1em}
+.source-layout .source-buyback-description p{margin:0;text-indent:1em}
+.source-buyback .source-buyback-table{min-width:660px;width:100%;border-collapse:collapse;font-size:.95em;line-height:1.8}
+.source-buyback .source-buyback-table th,.source-buyback .source-buyback-table td{border:1px solid currentColor;padding:.3em .5em;background:transparent;font-weight:400;vertical-align:middle}
+.source-buyback .source-buyback-table th:first-child,.source-buyback .source-buyback-table td:first-child{width:16%;border-right:3px double currentColor;text-align:center;white-space:nowrap}
+.source-buyback .source-buyback-flow td{text-align:left}
+.source-buyback .source-buyback-limits thead th{border-bottom:3px double currentColor;text-align:center}
+.source-buyback .source-buyback-limits td{text-align:center}
+.source-buyback .source-buyback-limits tr:last-child td:last-child{text-align:left;width:55%}
 .source-layout .source-contest>p{margin:0;text-indent:0;text-align:left}
 .source-layout .source-contest>.source-title{text-align:center}
 .source-layout .source-contest>.source-title+p:not(.source-title){margin-top:1.4em}

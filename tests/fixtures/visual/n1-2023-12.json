@@ -1,0 +1,287 @@
+{
+  "source": "Local scanned 33-page December 2023 N1 paper, pages3–33",
+  "footnoteReferences": [
+    [
+      8,
+      0,
+      [
+        [
+          "熟練工",
+          1
+        ],
+        [
+          "番人",
+          2
+        ]
+      ]
+    ],
+    [
+      8,
+      2,
+      [
+        [
+          "万人受け",
+          0
+        ]
+      ]
+    ],
+    [
+      9,
+      0,
+      [
+        [
+          "中等教育",
+          1
+        ],
+        [
+          "揺るぎない",
+          2
+        ]
+      ]
+    ],
+    [
+      9,
+      1,
+      [
+        [
+          "生息地域",
+          0
+        ]
+      ]
+    ],
+    [
+      9,
+      2,
+      [
+        [
+          "鵜呑みに",
+          1
+        ],
+        [
+          "モチベーション",
+          2
+        ],
+        [
+          "マネジメント",
+          3
+        ]
+      ]
+    ],
+    [
+      9,
+      3,
+      [
+        [
+          "頑迷",
+          1
+        ],
+        [
+          "耐性",
+          2
+        ],
+        [
+          "ぬか喜び",
+          3
+        ],
+        [
+          "誤認",
+          4
+        ]
+      ]
+    ],
+    [
+      10,
+      0,
+      [
+        [
+          "アングル",
+          0
+        ]
+      ]
+    ],
+    [
+      11,
+      0,
+      [
+        [
+          "訊く",
+          1
+        ],
+        [
+          "律儀さ",
+          2
+        ],
+        [
+          "何重にも畳み込まれた",
+          3
+        ],
+        [
+          "キリがない",
+          4
+        ]
+      ]
+    ],
+    [
+      12,
+      0,
+      [
+        [
+          "SNS",
+          1
+        ],
+        [
+          "リアルタイムウェブ",
+          2
+        ],
+        [
+          "コンテンツ",
+          3
+        ],
+        [
+          "すっとばし",
+          4
+        ],
+        [
+          "つきもの",
+          5
+        ],
+        [
+          "あっというまに",
+          6
+        ],
+        [
+          "昇華する",
+          7
+        ]
+      ]
+    ]
+  ],
+  "sourceTextCorrections": [
+    {
+      "groupId": "r13",
+      "from": "<th>方法</th>",
+      "to": "empty corner header",
+      "sourcePage": 33
+    }
+  ],
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44"
+      ],
+      "textSha256": "d5952b40ce124dbe577dbc8c87702d93604fccd8a55f52b3cdf7813b81c68aff"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-45"
+      ],
+      "textSha256": "afdf79f4407361a6539b86351d436ab148755b706d51840192d3f8b996c74455"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "755a6906c0c77e252b42950956c2c69c2d3e4d17c575f5917063c031d27b4643"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "09e804de8ebdb901738527c228387497d8b5acb4eb5085987d1e28c49af5d998"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "55b1a93b133b4e81e41c488ef1188c1a475511b5ccf49d51db98216636c6f0fa"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-49",
+        "r-50"
+      ],
+      "textSha256": "bc6b3c285768f76e5000db22d1f32822939e6c52560fe6bca03388d8d3ae6f3b"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "718c7c138ab3d479d66f177bff8e70434815c66ea015850afee9210c228766c4"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "bba620c5bcf99468b34c0239d08d9fbae6746c2d64dd09cc1f87481fab85b93d"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-55",
+        "r-56"
+      ],
+      "textSha256": "59e260879074fb6e711b9e4ed4b30eb2cdab7683caeda66309d15d4eed95e12a"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-57",
+        "r-58",
+        "r-59"
+      ],
+      "textSha256": "cb533db1816e78d4b029cec66149fbc59e8dd10468d15a9d07134bd2e2fb5c3d"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61"
+      ],
+      "textSha256": "04c06c72935019b0cd39f67d945347752e079c6d11b950658da1726c56db40bb"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-62",
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "8c5d728dcefaada81ee77812a38646a782c2034961e19b540f10da7f841af7b4"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66"
+      ],
+      "textSha256": "f4e7a0db8c8b8449f795703360133be6b5699c1d5511226c0792a395a2aefb8c"
+    }
+  ],
+  "questionContentSha256": "15cbf4ff380eae4f7c76798c3a27c64076be0333abdd3555eea316b0b8961ee2"
+}

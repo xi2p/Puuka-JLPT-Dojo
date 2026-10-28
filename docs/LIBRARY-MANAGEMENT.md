@@ -23,17 +23,27 @@ exams/
 
 题库 Git 属性使用 `* -text`，保留文件原始字节。不要开启自动换行转换后直接推送，否则目录里的 SHA256 会与远端文件不符。
 
+## 本机维护目录
+
+维护者的 `exams/` 本身是连接 `puuka-jlpt-dojo-lib` 的独立 Git 仓库，主仓库继续忽略整个目录。外层保存 `.git`、README 和 `catalog.json`，试卷位于 `exams/exams/<id>/`，与远端结构一致。网站递归扫描，不依赖固定目录深度。普通用户按需下载，不需要这个 Git 仓库。
+
+首次建立维护副本时，可在没有 `exams/` 的程序项目目录运行 `git clone https://git.zju.edu.cn/3240104224/puuka-jlpt-dojo-lib.git exams`。已有本机试卷时应先核对并迁移，不要直接覆盖。
+
 ## 发布题库
 
-在程序项目的本机 `exams/` 完成制作和验收后：
+在项目根目录执行：
 
 ```sh
 node scripts/check-exams.js
 npm test
-node scripts/export-library.js <题库仓库的本机目录>
+node scripts/export-library.js
+git -C exams status
+git -C exams add -- exams catalog.json
+git -C exams commit -m "Update question banks"
+git -C exams push
 ```
 
-导出脚本校验试卷、仅复制运行文件，并重新生成 `catalog.json`，不执行 Git 操作。确认目录和试卷一致后，在题库仓库一起提交并推送。若仅需核对目录，可运行：
+默认脚本在本机 `exams/` 仓库原地整理并生成 `catalog.json`，不会重复复制音频，也不执行 Git 操作。若新卷暂放在外层 `exams/<id>/`，脚本会把它移到仓库中的 `exams/exams/<id>/`，避免出现重复 ID。仍可传入其他仓库路径导出一份运行文件。确认目录和试卷一致后，在题库仓库一起提交并推送。若仅需核对目录，可运行：
 
 ```sh
 node scripts/build-library-catalog.js exams tmp/library-export/catalog.json

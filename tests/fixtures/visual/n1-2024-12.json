@@ -1,0 +1,123 @@
+{
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44"
+      ],
+      "textSha256": "8dbed03296d59079d95115f7a17ab69e3b8ea081d24a9c7e1c66789b8d226080"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-45"
+      ],
+      "textSha256": "c137a9fe8d9f5bec029d3743cf68564379ebccc111f1498685e0925c1051c38a"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "f5f47323c60b8a8b2174b814a5879165eef2b27ce905294b41821cf70a91eb03"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "9116426551e25f31c9ed41be4b2012c5324e3063fd9ff419f7d738bfc05f47fa"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "c9e77c6d1a13bf10eb45ade36bb0a09198337b31c1f412f2265e022616dbfba7"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-49",
+        "r-50"
+      ],
+      "textSha256": "4a88fac94fed8d86b24e7101367aa1e55f0bb4273e615356faab735c5972ae99"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "280262a69b8b3ff2998507ce8530f70d5a05273c2168604e8c21ebf07cb226be"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "050d058980d7d98f7ce2a9f6cd860681cc6cf6c4ab4a232ba32542ee274d0110"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-55",
+        "r-56"
+      ],
+      "textSha256": "a15bf8844c14d3f1ec7c337d0736977676e10c3717027679e6f949b13ab5d478"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-57",
+        "r-58",
+        "r-59"
+      ],
+      "textSha256": "4fd2a1a5898294452dbba7c28a6b98a0c4b585646be0360fc0aebbc2e23bb0fc"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61"
+      ],
+      "textSha256": "e67e45e35ec3cc1ab135ae2d218e1c4f59a21014160b9194933bacaf4696704d"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-62",
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "afada99c80d97b30c6d97d8f1ab6b2b155b2d77244cafb92b08c72adc0627a9f"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66"
+      ],
+      "textSha256": "d49e8ec0532ffb835718a80697b330d8601d529772e0333eab3653a587a1931d",
+      "sourceTextCorrection": "Restored verbatim grant conditions from scanned PDF page34, replacing the abbreviated HTML table."
+    }
+  ],
+  "questionContentSha256": "ba757fb3c421d765924d74ff1203241725b4278f61b9626fe0fe1b707e5082f8"
+}

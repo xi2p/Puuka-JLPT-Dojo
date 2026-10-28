@@ -55,3 +55,18 @@
 .source-layout .source-missing-notice{border:1px dashed #a58a4e;background:#fffaf0;padding:1em;color:#705e38;line-height:1.8}
 .source-layout .source-missing-notice p{margin:0 0 .5em}
 .source-layout .source-missing-notice p:last-child{margin-bottom:0}
+.source-layout .exam-number-box{display:inline-block;min-width:2em;margin:0 .35em;border:1px solid currentColor;line-height:1.4;text-align:center;text-indent:0}
+.source-layout .source-vertical-scroll{max-width:100%;overflow-x:auto;direction:rtl;margin:.5em 0}
+.source-layout .source-vertical{writing-mode:vertical-rl;text-orientation:mixed;height:28em;max-height:70vh;width:max-content;max-width:none;direction:ltr;overflow-wrap:normal;box-sizing:content-box}
+.source-layout .source-vertical>p{text-align:start}
+.source-layout .source-grant h4{font-size:1em;margin:1em 0 .15em}
+.source-layout .source-grant h4 small{font-size:.85em;font-weight:400}
+.source-layout .source-grant>p{margin:0 0 0 1em;line-height:1.85}
+.source-layout .source-grant>.source-title{margin:.5em 0 1em}
+.source-layout .source-grant>.source-title span{border:1px solid currentColor;padding:.15em .3em;box-decoration-break:clone;-webkit-box-decoration-break:clone}
+.source-layout .source-terms{display:grid;grid-template-columns:max-content minmax(0,1fr);gap:.15em .7em;margin:.2em 0 0 .5em}
+.source-layout .source-terms dt{font-weight:600}
+.source-layout .source-terms dd{margin:0}
+.source-layout .source-documents{margin-left:2em}
+.source-layout .source-receipt-note{margin:0 0 0 1em;text-indent:-1em;line-height:1.8}
+.source-memo{border-block:1px solid currentColor;width:fit-content;max-width:100%;margin:1em auto;text-align:center;padding:.2em 1em;line-height:1.8}

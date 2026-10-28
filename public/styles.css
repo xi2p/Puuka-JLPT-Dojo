@@ -38,6 +38,16 @@
 .source-layout .source-subject{text-indent:0;text-align:center;margin:.45em 0!important}
 .source-layout .source-material-label{font-size:1em;font-weight:600;text-align:center;margin:1em 0 .2em}
 .source-layout .source-letter p{margin:0;text-indent:0}
+.source-layout .source-email{border-block:1px solid currentColor;padding:1em 0;margin:.5em 0}
+.source-layout .source-email-body{margin:1.4em 0}
+.source-layout .source-email-body p{line-height:1.95;text-align:left}
+.source-layout .source-contest>p{margin:0;text-indent:0;text-align:left}
+.source-layout .source-contest>.source-title{text-align:center}
+.source-layout .source-contest>.source-title+p:not(.source-title){margin-top:1.4em}
+.source-layout .source-contest-section{font-size:1em;font-weight:400;margin:1.3em 0 0}
+.source-layout .source-contest>.source-contest-subheading{margin-top:0;text-indent:0}
+.source-entries .source-entries-table{min-width:700px;width:100%;border-collapse:collapse;font-size:.95em;line-height:1.6}
+.source-entries .source-entries-table th,.source-entries .source-entries-table td{border:1px solid currentColor;background:transparent;font-weight:400;text-align:left;padding:.4em .5em}
 .source-layout .exam-gap{display:inline-block;min-width:3.3em;margin:0 .2em;border-bottom:1px solid currentColor;text-align:center;text-indent:0;line-height:1.2;font-variant-numeric:tabular-nums}
 .source-layout .source-notice>h3{font-size:1.05em;margin:0;text-align:center}
 .source-layout .source-notice>p{margin:0;line-height:1.75}

@@ -27,7 +27,7 @@ function validState(state) {
       a.elapsed&&['r','l'].every(key=>Number.isFinite(a.elapsed[key])&&a.elapsed[key]>=0)&&
       a.position&&['r','l'].includes(a.position.section)&&Number.isInteger(a.position.group)&&a.position.group>=0&&
       (!getExam(a.examId)||a.position.group<getExam(a.examId).sections.find(s=>s.id===a.position.section)?.groups.length)&&
-      Array.isArray(a.flags)&&a.flags.every(flag=>typeof flag==='string'&&(!getExam(a.examId)||getExam(a.examId).sections.some(section=>section.groups.some(group=>group.id===flag))))&&Number.isFinite(a.audioTime)&&a.audioTime>=0&&
+      Array.isArray(a.flags)&&a.flags.every(flag=>typeof flag==='string'&&(!getExam(a.examId)||getExam(a.examId).sections.some(section=>section.groups.some(group=>group.id===flag||group.questions.some(q=>q.id===flag)))))&&Number.isFinite(a.audioTime)&&a.audioTime>=0&&
       Number.isFinite(a.audioRate)&&a.audioRate>=.5&&a.audioRate<=2&&typeof a.startedAt==='string');
 }
 async function serveFile(req, res, file) {

@@ -1,10 +1,11 @@
 // Run with: node scripts/check-exams.js
 const {listExams,readExam,audioFile}=require('../exam-store.js');
 const fs=require('node:fs');
+const {repeatedInstructions}=require('./audit-instructions');
 let failed=false;
 for(const summary of listExams()){
   const exam=readExam(summary.id),questions=exam.sections.flatMap(s=>s.groups.flatMap(g=>g.questions));
-  const errors=[];
+  const errors=repeatedInstructions(exam).map(issue=>`${issue.reason}：${issue.questionId}`);
   if(new Set(questions.map(q=>q.id)).size!==questions.length)errors.push('题号重复');
   for(const section of exam.sections)for(const group of section.groups){
     if(group.blocks&&JSON.stringify(group.blocks.flatMap(b=>b.questionIds))!==JSON.stringify(group.questions.map(q=>q.id)))errors.push(`文章关联不完整：${group.id}`);

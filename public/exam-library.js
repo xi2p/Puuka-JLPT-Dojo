@@ -27,7 +27,7 @@ export function validProgress(state,library){
         a.notes&&typeof a.notes==='object'&&!Array.isArray(a.notes)&&Object.values(a.notes).every(n=>typeof n==='string'&&n.length<=20000)&&
         a.elapsed&&['r','l'].every(k=>Number.isFinite(a.elapsed[k])&&a.elapsed[k]>=0)&&
         a.position&&['r','l'].includes(a.position.section)&&Number.isInteger(a.position.group)&&a.position.group>=0&&(!exam||a.position.group<exam.sections.find(s=>s.id===a.position.section)?.groups.length)&&
-        Array.isArray(a.flags)&&a.flags.every(flag=>typeof flag==='string'&&(!groups||groups.some(g=>g.id===flag)))&&
+        Array.isArray(a.flags)&&a.flags.every(flag=>typeof flag==='string'&&(!groups||groups.some(g=>g.id===flag||g.questions.some(q=>q.id===flag))))&&
         Number.isFinite(a.audioTime)&&a.audioTime>=0&&Number.isFinite(a.audioRate)&&a.audioRate>=.5&&a.audioRate<=2&&typeof a.startedAt==='string';
     });
 }

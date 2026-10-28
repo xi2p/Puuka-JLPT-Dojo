@@ -28,8 +28,11 @@
 ```sh
 npm start
 node scripts/check-exams.js
+node scripts/audit-content.js
 npm test
 ```
+
+内容检查的人工复核记录见[题库内容检查记录](CONTENT-AUDIT.md)。检查脚本只报告问题，不会自动改题。
 
 服务绑定 `127.0.0.1`，默认端口为 3300。Windows 部署脚本负责查找已有 Node.js，必要时下载官方便携版并校验哈希；启动和更新脚本分别调用 `server.js`、`updater.js`。
 

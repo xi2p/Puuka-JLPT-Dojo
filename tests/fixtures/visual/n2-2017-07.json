@@ -1,6 +1,6 @@
 {
   "examId": "n2-2017-07",
-  "source": "Original scanned paper pages 4–11; HD compilation used for legibility, original paragraph boundaries take precedence.",
+  "source": "Original scanned paper printed pages 1–12 (PDF pages 3–14); HD compilation used for legibility. Original paragraphs, underline spans and printed option columns take precedence.",
   "canonicalization": "Strip HTML and whitespace; normalize parenthesized gap labels 50–54 to digits.",
   "blocks": [
     {
@@ -113,5 +113,6 @@
       ],
       "textSha256": "33a748940f9ca0d00ae041bf40733376262e236933bf61becc8fd6a4a6ae01bb"
     }
-  ]
+  ],
+  "questionContentSha256": "b2520794c41a20f4b463d418ce2c50c3e7b05d843bc5ac52c1c0cc4a96e254d9"
 }

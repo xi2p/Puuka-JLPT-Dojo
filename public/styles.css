@@ -46,3 +46,8 @@
 .source-layout table.source-course-table th,.source-layout table.source-course-table td{border:1px solid currentColor;padding:.35em .45em;color:inherit;text-align:center;vertical-align:middle}
 .source-layout table.source-course-table td:nth-child(2){text-align:left;min-width:12em}
 .source-layout table.source-course-table td:nth-child(3),.source-layout table.source-course-table td:nth-child(4){white-space:nowrap}
+.word-order-slot{display:inline-block;width:3.5em;height:1.35em;line-height:1.2;text-indent:0;text-align:center;vertical-align:baseline;border-bottom:1px solid currentColor;margin:0 .15em;font-weight:400}
+.choices.source-columns-1{grid-template-columns:minmax(0,1fr)}
+.choices.source-columns-2{grid-template-columns:repeat(2,minmax(0,1fr))}
+.choices.source-columns-4{grid-template-columns:repeat(4,minmax(0,1fr))}
+@media(max-width:640px){.choices.source-columns-2,.choices.source-columns-4{grid-template-columns:minmax(0,1fr)}.word-order-slot{width:3em;margin:0 .1em}}

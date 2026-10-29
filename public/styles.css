@@ -222,3 +222,8 @@
 .source-orchestra-notice .source-orchestra-exchange { margin: 1em 0 .4em; padding: .4em; }
 .source-orchestra-prices { min-width: 660px; width: 100%; }
 .source-orchestra-prices th,.source-orchestra-prices td { border: 1px solid currentColor; background: transparent; text-align: center; font-weight: 400; white-space: nowrap; }
+.source-geology-lecture .source-geology-lecture-table { min-width: 660px; width: 100%; }
+.source-geology-lecture-table th,.source-geology-lecture-table td { border: 1px solid currentColor; background: transparent; font-weight: 400; vertical-align: middle; }
+.source-geology-lecture h3 { font-size: 1.15em; }
+.source-city-bike-mail > p,.source-order-delay-mail > p { margin: 0; text-indent: 0; }
+.source-city-bike-mail .source-prose p,.source-order-delay-mail .source-prose p { text-indent: 1em; }

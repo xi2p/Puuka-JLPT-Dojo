@@ -1,0 +1,117 @@
+{
+  "source": "32 scanned pages reviewed; written printed1–11, listening11–12, answers13, solutions/transcripts14–30; D parking non-resident fee5000 retained as printed despite9000 in translated solution",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-48",
+        "r-49",
+        "r-50",
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "768a9b9c17a282ab593cbb794c62f4668c638d604ed8c1feae8f346b464ca7a6"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-53"
+      ],
+      "textSha256": "78463faa5129fb3671404d988046e517d2ef219af9054c8af365407860f61c93"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-54"
+      ],
+      "textSha256": "71e7cf4ff6163407952d72905becc8940ce81755c3c0ee36dcc8edd23daa3cfb"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "eca82bcd2f7844a37fe8b48e3ba11c76ef5cb3a9b71e056159a09eadb10794ca"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "0c2d7310bf5ba940cf61762a857580dbe1555890378d2e66a46b0c6e2565b238"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "966441df91063e7b6ca9eb0bc56f7b1a270dcc7e9dd9a0e74a3155ada5a091f4"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-58",
+        "r-59",
+        "r-60"
+      ],
+      "textSha256": "134ad6436964afeabcb2826dbe93b289dda934b1eece6b6139934efb76772738"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-61",
+        "r-62",
+        "r-63"
+      ],
+      "textSha256": "970255dfd27540437d9f9cfe2bd8f4c0d51232a1968221ffcb96ca34c23295c6"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-64",
+        "r-65",
+        "r-66"
+      ],
+      "textSha256": "59dae4f3a11bfca4ef4b9cd8662c7a26bd5e7411fac13c80bb300ca7f80330db"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "7c9068cbcbd3d0a4d21e14e8d81bce4d1ac5404f659d06c7657775ef66293c53"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70",
+        "r-71"
+      ],
+      "textSha256": "c3f56f051f42a9dfbafd3044be15a6078fee7469f39e7f044decc303d3cb0861"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "a8b7de8fe262a852340fcedb5ffaae6cb730aeeaa4704d363b17f7a7c1c280f7"
+    }
+  ],
+  "questionContentSha256": "29a9e15e9125602e334ba6479457039774bcc778d248ebde24ca802cc562a660",
+  "unchangedListeningSha256": "9e3503258bd4d4c9cb3160ef7accd656ab972a3fb7d17ed33f0f614897950a5f"
+}

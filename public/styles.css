@@ -271,3 +271,8 @@
   .source-museum-event { padding: .6em; }
   .source-museum-event dl > div { grid-template-columns: 5.5em minmax(0, 1fr); }
 }
+.source-ticket-details p { margin: 0; text-indent: 0; }
+.source-takemoto-parking { min-width: 720px; }
+.source-takemoto-parking th, .source-takemoto-parking td { text-align: center; vertical-align: middle; }
+.source-takemoto-parking tr > th:nth-child(2) { white-space: nowrap; }
+.source-takemoto > p { text-indent: 0; }

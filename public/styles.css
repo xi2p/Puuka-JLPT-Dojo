@@ -432,3 +432,13 @@
 .source-face-grid figure { margin: 0; min-width: 0; text-align: center; }
 .source-face-grid img { display: block; width: 100%; height: auto; }
 @media(max-width: 600px) { .source-face-grid { grid-template-columns: repeat(2,minmax(0,1fr)); max-width: 25em; } }
+
+.source-course2012 { border: 1px solid var(--line); padding: .3em .6em; }
+.source-course2012 > h3 { font-size: 1em; margin: .1em 0 .35em; }
+.source-course2012 section { border: 1px solid var(--line); border-bottom: 0; padding: .3em .5em; }
+.source-course2012 section:last-of-type { border-bottom: 1px solid var(--line); }
+.source-course2012 h4 { margin: .1em 0; font-size: 1em; }
+.source-course2012 p { margin: .25em 0; }
+.source-course2012-schedule { padding-left: .2em; }
+.source-diagram2012 { max-width: 23em; margin: .5em auto; }
+.source-diagram2012 img { width: 100%; height: auto; }

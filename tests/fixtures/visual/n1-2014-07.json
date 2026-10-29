@@ -1,0 +1,121 @@
+{
+  "source": "Source limited: all30 PDF explanation pages inspected, no original printed layout. Word native paragraphs and document.xml credit-card table gridSpan/vMerge checked. Original printed paragraph boundaries, A/B frames and option geometry cannot be independently confirmed.",
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44",
+        "r-45"
+      ],
+      "textSha256": "d067a23531270f5aa6de42114493c60303d43a06503525c0727f4b4fcfa85155"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "8f628fffb743a5f378d199c236a0cd10c8d0e25e5252651aab521d646a9fe5e7"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "b0b4ef90516cc1d5d4ad431dc4aa1ce7b9fd9fc258ced1d6d873dee9aca0e9b9"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "87f9a51a56bcdbdfc94f7ddcee07aeaca621fbcd20f512f36554145e6350af4d"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-49"
+      ],
+      "textSha256": "10440cad14744f6e6aab6a0c61eed02b0cb38a43d9671bb725559ec1cd5072b0"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "2735f7ce57b0446519aaacf471881f0f19c97d3d3d76ea40bf2d26090515dfa6"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-53",
+        "r-54",
+        "r-55"
+      ],
+      "textSha256": "4fc821d4dd55e20ee9e45daf2d0ddbf8de6fde783b1c4248e32f483f52a412c7"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-56",
+        "r-57",
+        "r-58"
+      ],
+      "textSha256": "12f91f0264a1e6ff6a6bc8d4392f8a13420f97ed0f9d331edc7661ab02990565"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-59",
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "d973943ee5bfc47a7ba5a2583c17f582f346a3fd37dabdd38a430ac69f2867cf"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "bbd2897f77e0c884d8ab2f41e33ec304e2cd8dcd44349c72f53fb07e3b0a3cef"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "2a69599fe9f5a8322f1395e03b8ddd80e71b8179ca7826407e3b25fbc32ff3d3"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "c2042cb33a14112c5a6ab6fcc2bed1f24e874597d8b7aeaa80245937bac6ac07"
+    }
+  ],
+  "questionContentSha256": "a178397ce3acea78c3e472fd0a02677306b456b29c1e4f681da5d4638e670421",
+  "unchangedListeningSha256": "0a443528416f15658bae4f3fa74707f3f7458fd59441a8a2e747898e13f66e14"
+}

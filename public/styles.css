@@ -521,3 +521,21 @@
 .source-holiday2010 p { margin:.2em 0; }
 .source-subject-blank { text-decoration:underline; text-underline-offset:.2em; }
 @media(max-width:600px){.source-art2010-row { grid-template-columns:4em minmax(0,1fr);gap:.4em; }}
+
+/* July 2010 citizen seminar keeps the printed nested frame and testimonials. */
+.source-citizen2010 { border:1px solid currentColor; }
+.source-citizen2010-title { border:1px solid currentColor; margin:0 1em; padding:.2em .4em; font-size:1em; }
+.source-citizen2010-body { padding:.4em; }
+.source-citizen2010-body > p { margin:.2em 0; }
+.source-layout .source-citizen2010-table { min-width:740px; margin:.2em 0; }
+.source-citizen2010-table th { width:22%; text-align:center; font-weight:400; vertical-align:middle; }
+.source-citizen2010-table td { vertical-align:top; }
+.source-citizen2010-table p { margin:.25em 0; }
+.source-citizen2010-voices { border-top:1px solid currentColor; padding:.5em; }
+.source-citizen2010-voices p { margin:0; }
+.source-survey2010 p { margin:.2em 0; }
+
+.choices.source-note-options .choice { align-items:flex-start; }
+.choices.source-note-options .choice > span:last-child { display:block; border:1px solid currentColor; padding:.45em; min-height:5em; font-weight:400; }
+
+.choices.source-note-options .choice > span:last-child { white-space:pre-line; font-size:.85em; line-height:1.65; min-height:9.5em; }

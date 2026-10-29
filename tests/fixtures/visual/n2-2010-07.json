@@ -1,0 +1,117 @@
+{
+  "source": "All12 HD pages viewed;4–11 enlarged. Bloodtype5,short2/3/survey4/1/2,middle5/3/4,AB4/3,effort10 plus blank. Restored source intros and source seminar outer/title/main table/voices frames. Listening note question keeps exact4option texts and source independent note frames. All questions/answers/scoring/listening preserved.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "9bef1d686effa43efd6cbcccbceb71d12dcc0df2c5d2bd5c93aee90e865889de"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "08b7dbfc6f03d939f291f187d8ddc7e02b43c4d3daa388cdfccf3e9ab7700fe7"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "0281392580bff4428aa8f9d959664f83aebdbe697f5159bf53823ba56fe14ed8"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "5a59b22951870e87231c2425d87b1084eb6b2394a8340e6fedbce60a98f1f9ae"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "1c72449fbf49b14977da2bbd73863bed2784ab12ac518f4162f7c630dd0eb16a"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "8c650a9250bcbfb2a083bf24e07adc4e558c662d19f371a244edd62b14dd0a3f"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "46f8e273023216cd015717c39ae8b108dadabed23764edd2adc5c6bd503e7a6a"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "d1ff4fc3b926ab63eed918969b3015208998ed93c1bd1103b55dfbb8533d3be6"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "04568f4815ae0a90ef28e2a3b79e66fb4d37d07d8e379964b68b3a9174e1bd76"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "7511a21a5ebe1e5a87c94a823894ba593289a0f5390150002a303b37768c5279"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "1ec58595345bdb42933c439ed6d17eaef610ceeb24ed59bfc9da1cff284223c5"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "b65b9047fb96fa6e9c949b58166874d0c7529b1cc6919efb1f755757bf369d62"
+    }
+  ],
+  "questionContentSha256": "2b0cc026c5122c58df9187a02404c68a4c6b64c1b0fd02b0a938a48893781b4e",
+  "unchangedListeningSha256": "c7122874aaee860658b8efa38fb354cb07614c04c9d2f1f123218a69c29f76e3"
+}

@@ -122,6 +122,8 @@ exams/
 | `id` | 笔试如 `r-1`，听力如 `l-1-1`，卷内唯一 |
 | `label`、`text` | 展示题号和题干 |
 | `options`、`optionCount` | 选项文字及实际数量，通常为 3 或 4 |
+| `choiceColumns` | 原卷选项列数，可设为 1、2、4；窄屏自动调整 |
+| `choiceStyle` | 原卷为独立便条时填 `note`，保留每项边框与原文换行 |
 | `answer` | 从 1 开始的参考答案编号 |
 | `illustrationHtml` | 小题所需图示的展示内容 |
 | `audioStart` | 最终运行音轨中的起点，单位为秒，可用小数 |

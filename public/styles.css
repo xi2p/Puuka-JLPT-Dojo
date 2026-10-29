@@ -496,3 +496,11 @@
 .move-leaf.first::before,.move-leaf.second::before { content:""; position:absolute; left:50%; top:0; border-left:1px solid currentColor; }
 .move-leaf.first::before { height:160px; }
 .move-leaf.second::before { height:115px; }
+
+/* December 2010 source scholarship notice and relocation letter. */
+.source-scholar2010 .source-notice-heading { margin:.7em 0 .15em; font-size:1em; font-weight:400; }
+.source-scholar2010 .source-notice-heading:nth-child(-n+2) { text-align:center; margin:.15em 0; }
+.source-relocation2010 p { margin:.2em 0; }
+.source-layout .source-scholar2010-table,.question-illustration .source-scholar2010-table { min-width:900px; }
+
+.source-scholar2010 > p:not(.source-notice-heading) { margin:.2em 0; }

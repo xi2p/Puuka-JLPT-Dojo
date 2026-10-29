@@ -1,0 +1,127 @@
+{
+  "source": "Original pages1–14 viewed,4–12 enlarged. Letter ten paragraphs and four closing lines, restored visible email recipient, lecture3/library7/writing4, philosophy4,A3/B4,birds9; contest cross-page ending and question69 four-column five-row table placement verified.",
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44",
+        "r-45"
+      ],
+      "textSha256": "61a2cba0cc084e06e6e198fa7a39b9e254e474eaa2d12db5ed4d75ef0d4c77d5"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "c674449c4c10695aed335dc502adaf42cdba22b54b8e17a18cfc2b4b107066cc"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "2a918041c10859fdad0d40e8c468c656b19e45ad38a195285fe000143c831129"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "67a6b75f141633e7150f83198158e48aeee80003f20c1a2243c98aa1fe815d79"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-49"
+      ],
+      "textSha256": "a49438e96d7ae2c79d129c3cb54815767fee37ed46414f908a1fecd5ff8212f5"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "e6cc6373f65e5ba352bed5a9e278cbfad0a4b38e9575ee7e07d3a8e27e29028c"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-53",
+        "r-54",
+        "r-55"
+      ],
+      "textSha256": "7ca59f625fecebbf5717b44af2d05b7c6f853a6e2e26c5e85c66fc8ec79d898e"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-56",
+        "r-57",
+        "r-58"
+      ],
+      "textSha256": "3eaf03290e4af0681ebc52b7da827b955fecaf6b4a228cacf4590298b8ea8a4e"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-59",
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "3b595d0a871484b5c540da16bbe2f4374ed98526a72a5ee2c059db30bff4f6f4"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [],
+      "textSha256": "b9fb9ab5c0deab79800e2fbb19b0040a61a1848e31069bb521c0f6f2ccb61394"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "a08b06477ac8a2c2a75c8646be93bc46e9d4c7095a57c50593f5773df593185e"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "60aa08ab8d4c2391d879cc1d3002fcdc24f4544e8d01cc42a6bd505aa5cb8040"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "20bcaeaa16c2d4f981c80bd119b2a8db7ce80023b1bc399b42150f9a884d9a1b"
+    }
+  ],
+  "questionContentSha256": "28c1e474b37b13c7d4feb151a58b4584b5f0532819233db20bec4eace9eba664",
+  "unchangedListeningSha256": "500494f8a83f964e2eaf8b4fb14278f1542ed01b075c092497b84f144455c14b"
+}

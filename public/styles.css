@@ -452,3 +452,10 @@
 .source-pass2012-badge, .source-pass2012-prices span { border: 1px solid var(--line); padding: 0 .12em; }
 .source-pass2012-prices p { margin: .3em 0; }
 @media(max-width: 600px) { .source-pass2012-feature { grid-template-columns: 4em minmax(0,1fr); } }
+
+.source-contest2011 > p { margin-block: .55em; }
+.source-contest2011-heading { font-weight: 600; margin-top: .9em !important; }
+.source-contest2011-people { min-width: 39em; width: 100%; table-layout: fixed; }
+.source-contest2011-people th:nth-child(1) { width: 12%; }
+.source-contest2011-people th:nth-child(2) { width: 15%; }
+.source-contest2011-people th:nth-child(3) { width: 44%; }

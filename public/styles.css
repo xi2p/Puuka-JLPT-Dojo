@@ -146,3 +146,13 @@
 .source-rental .source-rental-hours{min-width:480px;width:85%;margin:0 0 0 1em;font-size:.95em;line-height:1.6}
 .source-rental .source-rental-hours th,.source-rental .source-rental-hours td{text-align:center;vertical-align:middle;padding:.1em .5em;border:1px solid currentColor;background:transparent;font-weight:400}
 .source-rental .source-rental-hours th{border-bottom:3px double currentColor}
+.source-numbered-gap{display:inline-block;min-width:3.5em;text-align:center;text-indent:0}
+.source-layout .source-excerpt-warning{margin:1em 0;text-indent:0}
+.source-layout .source-exercise{font-weight:600;line-height:1.75}
+.source-exercise .source-exercise-title{text-align:left;font-size:1em;margin:0 0 .3em;line-height:1.7}
+.source-exercise p{margin:0;text-indent:0}
+.source-exercise h4,.source-exercise h5{font-size:1em;line-height:1.7;margin:.3em 0 0}
+.source-exercise .source-exercise-classes{min-width:570px;margin:.2em 0;font:inherit}
+.source-exercise .source-exercise-classes th,.source-exercise .source-exercise-classes td{padding:0 .4em 0 0;border:0;background:transparent;white-space:nowrap;color:inherit;font-weight:inherit}
+.source-exercise .source-exercise-applicants{min-width:750px;width:100%;margin:0;font:inherit}
+.source-exercise .source-exercise-applicants th,.source-exercise .source-exercise-applicants td{padding:.05em .45em;border:1px solid currentColor;background:transparent;color:inherit;white-space:nowrap;font-weight:inherit}

@@ -393,3 +393,7 @@
 .source-cpj-card th { text-align: center; vertical-align: middle; }
 .source-cpj-notice h4 { font-size: 1em; margin: .9em 0 .3em; }
 .source-cpj-notice > p { margin: .35em 0; }
+.source-izumi-shopping h4 { font-size: 1em; font-weight: normal; margin: .7em 0 .2em; }
+.source-izumi-shopping p { margin: .2em 0; }
+.source-izumi-shopping .source-izumi-postage { width: 72%; min-width: 400px; }
+.source-izumi-buyers { min-width: 580px; }

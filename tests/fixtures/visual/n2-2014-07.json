@@ -1,0 +1,117 @@
+{
+  "source": "All13 HD source pages viewed;4–11 enlarged. Paragraph boundaries, cross-page articles, city survey letter, payment email, A/B frames, shopping guide and q74 buyer table checked. Phone/fax lines appear only in Word paragraphs816/818 and are retained with documented source-version difference.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "e61465bc896b60c40e94006792ca58e0d25bc449b95ac5ae97502e13462efd95"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "5a4306f14ffd8eb56ac426d7042ce94ce7f83bfb5422b546124ee5f7da3e423d"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "179cb80ac54620656ef65a3df359c0905ce8f8294a916f75a48fb5755126af38"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "ade8988c88be928d76cc834b41dbe431bd8f19c39de33866d026a64dd704029e"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "984232e971a3efdbbb20eb453ff845e2c296874ed9a6a385f7f5d02e04dd61ee"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "0f863311d48484bd14dc075886c5b7644d119ec33d59c1cbcb1782cc459d50f2"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "bcc6d2bf4e38de1fd6c1871610d519f9e7c7eb976c070f2f3a42022167711586"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "80e49eef99eea087de0b760b65436973ed7203a936a80b792faf83ef1d18b74a"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "748d18881cb1968893d5774bb992dbc71b03448df673e3424549127fa8acf557"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "002fbebb0548f4fa708e64a1aa980740387dc75fc8d049346d4d59d43e6136be"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "23dfe41a89e14bd58dbd70cd95fe17f78c0add69c5452571fcaa1ad030278e49"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "3bb2dcc0bbf8e50f7f3f82938f3ccc8132ca430f25428ca83422414a04617418"
+    }
+  ],
+  "questionContentSha256": "82d3381c0e3b4263d2d600db2f8806854507c68afb36c60259c4527b70fb83a2",
+  "unchangedListeningSha256": "621bf7f6103b9a441e08d6b6c73c22088e6271fa2ef9c9d5ddeb161bb7d3eda0"
+}

@@ -327,3 +327,8 @@
 .source-buffet h4 { font-size:1em; text-align:left; margin:.7em 0 .25em; }
 .source-buffet-rates p { margin:0; }
 .source-buffet-restaurant > p { margin:.5em 0; }
+
+.source-student-reporter h4 { font-size:1em; text-align:left; margin:.35em 0 0; }
+.source-student-reporter h4 + p { margin-top:0; }
+.source-student-reporter p { margin:.25em 0; }
+.question-illustration .source-student-applicants { min-width:720px; }

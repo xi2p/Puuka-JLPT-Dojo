@@ -1,0 +1,128 @@
+{
+  "source": "Local scanned December2023 N2 written paper PDF pages3–35 (printed1–33)",
+  "sourceTextCorrections": [
+    {
+      "groupId": "r14",
+      "sourcePage": 35,
+      "details": "Remove invented visible corner heading 店; 9時 is a shared rowspan=2 cell, add source punctuation after 基本料金"
+    }
+  ],
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-48",
+        "r-49",
+        "r-50",
+        "r-51"
+      ],
+      "textSha256": "8f56ef0b6c8ad84ef3368b940359969bb03f1dfba093ed48c5f9705f83387075"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-52"
+      ],
+      "textSha256": "c5026f435b91c2072532222518ea97e908467078b700fa1a69103203af76e463"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-53"
+      ],
+      "textSha256": "17518652c6fd314a75d7727fa8f9cca9571a1dd7117f2fe3a8ce2367c1ee954a"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-54"
+      ],
+      "textSha256": "20274d6353aaff6fe5708c7861aeecef6d983e31023b28b8b4e5d6264d35d896"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "6af5659947067961569be923b33a821e395b0ba6c8bc419aa77d225e56227f83"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "186c8d2c0518cc8a212571ffa182c6684f5ae0a6e551402012f79052562bd4ae"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-57",
+        "r-58"
+      ],
+      "textSha256": "2ff2a2cd0c4d752f69b31a017e169274fcd2b6a8286d1f530cb1fcd0e2f0a388"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-59",
+        "r-60"
+      ],
+      "textSha256": "e935f5db7f8cc497ba17741aed366bda3a09f75fc3b7398177d1ec268ebf9456"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "5c516170443eab5bed70e70596196ad4a7a831b041fca89b16b4e0c73d3523ec"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "f3c4ee81201b87aa2b2b59cd724d55f1adab5b6e08403b31ea518cd9eb8f47b0"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66"
+      ],
+      "textSha256": "479067455f56ce8153a0ad33c818ea64078ee6355ee0f98f7a26796daa50fe61"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-67",
+        "r-68",
+        "r-69"
+      ],
+      "textSha256": "a1da0f931811489d55b2f153b80a39614619a281e93cff8b957728a490975db5"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-70",
+        "r-71"
+      ],
+      "textSha256": "ea8886415c934221266efb75e4fa89bd1c8bdcef65484b7c3a95c8630602d28b"
+    }
+  ],
+  "questionContentSha256": "8c5a1277a708507d3cfb4413cd7b3f3721edf56a076ac908c28f583b2f1b7f6d"
+}

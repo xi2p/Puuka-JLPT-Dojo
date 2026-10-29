@@ -126,3 +126,23 @@
 .question-options-row>.choices{min-width:0;margin:0}
 @media(max-width:760px){.question-options-row{column-gap:10px}.question-options-row>.question-flag-toggle{margin-top:8px}}
 .question-head>.question-number{width:29px;flex-basis:29px}
+.source-layout .source-attachment{margin:1.3em 0 0}
+.source-pinned-notice{position:relative}
+.source-pinned-notice:before,.source-pinned-notice:after{content:"";position:absolute;width:5px;height:5px;border:1px solid currentColor;border-radius:50%;top:5px}
+.source-pinned-notice:before{left:5px}.source-pinned-notice:after{right:5px}
+.source-layout .source-rental{padding:1em 1.2em;line-height:1.7;display:flow-root}
+.source-rental .source-rental-brand{font-style:italic;font-weight:600;text-align:right;margin:0 0 .3em;text-decoration:underline;text-underline-offset:.3em}
+.source-rental .source-title{font-size:1.2em;margin:0 0 1em}
+.source-rental .source-rental-illustration{float:right;width:23%;max-width:150px;height:auto;margin:.2em 0 .3em .8em}
+.source-rental .source-rental-intro{font-weight:600;margin:0 0 1em}
+.source-rental h4{clear:both;font-size:1em;margin:1em 0 .2em;line-height:1.7}
+.source-rental p{margin:0 0 0 1em;text-indent:0}
+.source-rental .source-rental-step{margin-left:1.5em;text-indent:-1.5em}
+.source-rental .source-rental-discount{margin-left:2em;text-indent:-1em}
+.source-rental .source-rental-discount:before{content:"・"}
+.source-rental h5{font-size:1em;line-height:1.7;margin:0 0 0 0;font-weight:600}
+.source-rental .source-rental-return{margin-left:2em}
+.source-rental .source-rental-note{margin-top:.6em;font-size:.92em}
+.source-rental .source-rental-hours{min-width:480px;width:85%;margin:0 0 0 1em;font-size:.95em;line-height:1.6}
+.source-rental .source-rental-hours th,.source-rental .source-rental-hours td{text-align:center;vertical-align:middle;padding:.1em .5em;border:1px solid currentColor;background:transparent;font-weight:400}
+.source-rental .source-rental-hours th{border-bottom:3px double currentColor}

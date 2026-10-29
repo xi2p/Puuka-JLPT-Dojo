@@ -301,3 +301,8 @@
 .source-volunteer .source-volunteer-table { min-width: 540px; }
 .source-volunteer-table th { width: 28%; text-align: left; font-weight: normal; }
 .source-volunteer-table td, .source-volunteer-table th { padding: .35em .55em; }
+.source-writing-support > h4 { font-size: 1em; margin: .15em 0 0; }
+.source-writing-support > h4 + p,.source-writing-support > .source-support-subheading { margin: 0; }
+.source-writing-support .source-support-times p { margin: 0; }
+.source-writing-support > p:not(.source-right) { text-indent: 1em; }
+.source-writing-applicants { min-width: 580px; }

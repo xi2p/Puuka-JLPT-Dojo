@@ -316,3 +316,7 @@
 .source-training h4 { text-align:left; font-size:1em; margin:1em 0 .35em; }
 .source-training-table { min-width:680px; }
 .source-training-table td[rowspan] { text-align:center; vertical-align:middle; }
+.source-gym h4 { text-align:left; font-size:1em; margin:1em 0 .3em; }
+.source-gym-table { min-width:640px; }
+.source-gym-table td[rowspan] { vertical-align:middle; }
+.source-gym-benefits { margin:.5em 0; }

@@ -1,0 +1,121 @@
+{
+  "source": "All32 scans inspected;5–13 enlarged; page-number OCR debris removed from r12, source paragraphs and notices/gym poster checked",
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44",
+        "r-45"
+      ],
+      "textSha256": "26fea96f6e79b05974a96cf16bbd8c6a9ac64682959e6dc69f7ae0a1fce84ab9"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "aee2aed6551627920938aea496d39b3cef8fd4a45ed8f6a5e5b0914195c2f5c4"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "6129a0d3b7f13c4a5a7a1e940ea973e2e2ed0342d2a270bea17a9b63c146ede1"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "54db994a474b5a4da1530258c51783eb6b4a42e58312e353b7607044ba56bdce"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-49"
+      ],
+      "textSha256": "b33d55cd8a4178d741de1dbd70d932498ff32ff1b1694a8b8a8f6c62b1b86cec"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "32d5b0679c78397bfceabf8cd490d05a9efcaed82de1f381848a0e3e1a7aa08a"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-53",
+        "r-54",
+        "r-55"
+      ],
+      "textSha256": "965d42203aae4e248552a2d85423a50a772236f177782801f65c480c24c9232e"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-56",
+        "r-57",
+        "r-58"
+      ],
+      "textSha256": "dc10c18bfae5ba8ccf291847bc50b917f2cfe85bb46c2dedce15d13741d5c091"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-59",
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "1855a5a16c04c38fcae59bd6891c5f469ff741e987f7d7dcb26ca49e392bc74d"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "4469529d72e4046ff7793808a5a874a7008d02b38d1263905b1d8873308ed396"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "10867025a5b829a0ae89c8c0c91df1377f52e7d80be2a4678df3fec07e114139"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "69458eb5731fdcb3f4a2ec92c3ce5090dd763e3074eeb53c77b257aba4431cc3"
+    }
+  ],
+  "questionContentSha256": "a032e585335876e9d490ed8f4360dffdeea4641a6b389447b4118ea868513462",
+  "unchangedListeningSha256": "40c5a28a4e57fec2b7aee5412369fc79b87dfe56f58a6854a0fef1ad46c8abc9"
+}

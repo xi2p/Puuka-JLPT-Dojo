@@ -473,3 +473,26 @@
 .source-jobs2011 th:nth-child(4) { width: 11%; }
 .source-jobs2011 th:nth-child(5) { width: 19%; }
 .source-jobs2011 th:nth-child(6) { width: 22%; }
+
+/* July 2011 moving-service comparison and its original decision branches. */
+.source-layout .source-move-table { min-width: 700px; }
+.source-move-table thead th,.source-move-table tbody th { background: #ecece7; }
+.source-move-flow { position:relative; width:760px; height:335px; margin:1em 0; }
+.move-stage { position:absolute; border:1px solid currentColor; padding:.25em .5em; background:var(--paper,#fff); }
+.move-stage.one { left:0; top:0; width:100%; }
+.move-stage.two { left:15%; top:70px; width:85%; }
+.move-stage.three { left:35%; top:155px; width:65%; }
+.move-stage.one,.move-stage.two,.move-pair { display:flex; gap:1em; }
+.move-stage span { flex:1; }
+.move-stage.three>div:first-child { margin-bottom:.4em; }
+.move-leaf { position:absolute; text-align:center; }
+.move-leaf.first { left:0; top:34px; width:15%; padding-top:165px; border-left:1px solid currentColor; }
+.move-leaf.second { left:15%; top:104px; width:18%; padding-top:120px; border-left:1px solid currentColor; }
+.move-leaf.third { left:38%; top:255px; width:25%; }
+.move-leaf.fourth { left:72%; top:255px; width:25%; }
+.move-arrow { position:absolute; }.move-arrow.family { left:78%; top:35px; }.move-arrow.newcomer { left:83%; top:111px; }
+
+.move-leaf.first,.move-leaf.second { border-left: 0; }
+.move-leaf.first::before,.move-leaf.second::before { content:""; position:absolute; left:50%; top:0; border-left:1px solid currentColor; }
+.move-leaf.first::before { height:160px; }
+.move-leaf.second::before { height:115px; }

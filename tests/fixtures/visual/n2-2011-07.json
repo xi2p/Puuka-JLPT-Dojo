@@ -1,0 +1,117 @@
+{
+  "source": "All12 HD pages viewed;4–10 enlarged. Railway6paras, short1/email4/1/1/1; middle5/5/7, AB2/1, long7. Original source10 diagnosis a=no Japanese staff required→III,b=Japanese staff required→IV; reversed labels in old simplified table corrected to printed flow. Questions/answers/scoring unchanged.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "a5cba09c44a11cc2eb87fa421bfb88b99e29159b252104257c5468180589b5ba"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "c263c8db7abd05eed29bfd46a223e87307c4ca1cd7e6d02f60fedf8aeb71876e"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "586d252884836b7c95b016e2cb591a3eafb38d10dc9a9642a47232cd78a5ec9f"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "814f291cad3247e3f68c616029cb99ccc5eed4ac9b424de79791c8b7af8d5fc4"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "8fa30b68e8dd0ed56d29ad9f03e541ebf36cafdc421d23a22850a2b927cbcee9"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "52daac2f57fc59db16f1bd57efb43c4d10941070baa26e397afbcc3f3a3fa8f2"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "f8f5a75ea72bd2a5145867707eee2cdfb2c5865d350957de005d6e1cd2b08f2c"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "1fe6c7ee8bd83d55aec331e8b279d10c3c8921d471be99810cbdc5d60cadc3cb"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "36594abd1f52d2a5cc762f750f12f8d0c31f30106d7b1c3162801cfb4018c900"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "a984bb1ad6c37761bf4329b85782dd32069a403a9f80984df225ec6e15bfd22c"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "03a004258e5a2c5a898bdff14ae9c7dcdfce32a0b0b3ea94b05073e55fe7cae3"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "25c11ee06dc6bcb242d8f9b7c9b2f3c12caea0c1c85ef3fa014eb4a0805133dc"
+    }
+  ],
+  "questionContentSha256": "950fe859a6da43d2e78463e48a56d247486a4b32240bd92a3ad96d9f0b721f89",
+  "unchangedListeningSha256": "9a3fbadcccbae071e112f97f20464bef8ff071ee603dd60fd1358599bdda201a"
+}

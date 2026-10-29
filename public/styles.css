@@ -227,3 +227,13 @@
 .source-geology-lecture h3 { font-size: 1.15em; }
 .source-city-bike-mail > p,.source-order-delay-mail > p { margin: 0; text-indent: 0; }
 .source-city-bike-mail .source-prose p,.source-order-delay-mail .source-prose p { text-indent: 1em; }
+.source-pottery .source-pottery-table { min-width: 660px; width: 100%; }
+.source-pottery-table th,.source-pottery-table td { border: 1px solid currentColor; background: transparent; font-weight: 400; vertical-align: middle; }
+.source-pottery .source-pottery-table th { white-space: nowrap; }
+.source-pottery p,.source-pottery h4 { margin: 0; text-indent: 0; }
+.source-pottery .source-pottery-booking { margin-top: 1.3em; padding: .5em; }
+.source-pottery .source-right { text-align: right; }
+.source-marco-memo h4 { font-size: 1em; margin: .4em 0; }
+.source-marco-memo .source-box { padding: .4em; }
+.source-marco-memo .source-marco-table { margin: 0; width: 100%; }
+.source-marco-memo .source-marco-table th,.source-marco-memo .source-marco-table td { border: 0; background: transparent; padding: .1em .4em; font-weight: 400; }

@@ -156,3 +156,13 @@
 .source-exercise .source-exercise-classes th,.source-exercise .source-exercise-classes td{padding:0 .4em 0 0;border:0;background:transparent;white-space:nowrap;color:inherit;font-weight:inherit}
 .source-exercise .source-exercise-applicants{min-width:750px;width:100%;margin:0;font:inherit}
 .source-exercise .source-exercise-applicants th,.source-exercise .source-exercise-applicants td{padding:.05em .45em;border:1px solid currentColor;background:transparent;color:inherit;white-space:nowrap;font-weight:inherit}
+.source-layout .source-unframed-mail{margin:1.8em 0;line-height:2}
+.source-unframed-mail p{margin:0;text-indent:0}
+.source-unframed-mail .source-mail-greeting,.source-unframed-mail .source-mail-signature{margin-top:1.7em}
+.source-hiking h4{font-size:1em;margin:.7em 0 .2em}
+.source-hiking .source-hiking-routes{width:100%;min-width:620px;margin:0;font-size:.95em;line-height:1.8}
+.source-hiking .source-hiking-routes th,.source-hiking .source-hiking-routes td{border:1px solid currentColor;background:transparent;padding:.2em .5em;font-weight:400;vertical-align:top}
+.source-hiking .source-hiking-routes th,.source-hiking .source-hiking-routes td:first-child,.source-hiking .source-hiking-routes td:last-child{text-align:center}
+.source-hiking .source-hiking-routes td:first-child{width:6em}.source-hiking .source-hiking-routes td:last-child{width:5em;white-space:nowrap}
+.source-hiking p{margin:0;text-indent:0}
+.source-hiking .source-hiking-bullet{padding-left:1em;text-indent:-1em}

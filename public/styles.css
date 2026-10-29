@@ -237,3 +237,10 @@
 .source-marco-memo .source-box { padding: .4em; }
 .source-marco-memo .source-marco-table { margin: 0; width: 100%; }
 .source-marco-memo .source-marco-table th,.source-marco-memo .source-marco-table td { border: 0; background: transparent; padding: .1em .4em; font-weight: 400; }
+.source-airport-table { min-width: 660px; width: 100%; }
+.source-airport-table th,.source-airport-table td { border: 1px solid currentColor; background: transparent; font-weight: 400; vertical-align: middle; text-align: center; }
+.source-airport-table td[colspan] { text-align: left; }
+.source-airport-service p { margin: 0; text-indent: 0; }
+.source-airport-service h4 { margin: .15em 0 0; font-size: 1em; }
+.source-robot-speech > .source-right { margin: 0; }
+.source-greeting-notice > p { margin: 0; text-indent: 0; }

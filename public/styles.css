@@ -511,3 +511,13 @@
 .source-seminar2010 > .source-seminar2010-indent { padding-left:2em; }
 .source-layout .source-seminar2010-table { min-width:750px; margin:.25em auto; }
 .source-seminar2010-table td,.source-seminar2010-table th { text-align:center; font-weight:400; vertical-align:middle; }
+
+/* July 2010 printed art-competition notice. */
+.source-art2010-row { display:grid; grid-template-columns:6em minmax(0,1fr); gap:.75em; margin:.5em 0; }
+.source-art2010-row p { margin:.1em 0; }
+.source-art2010-row > div { min-width:0; }
+.source-layout .source-art2010-prizes { min-width:600px; margin:.15em 0; }
+.source-art2010-prizes td { padding:.1em .3em; }
+.source-holiday2010 p { margin:.2em 0; }
+.source-subject-blank { text-decoration:underline; text-underline-offset:.2em; }
+@media(max-width:600px){.source-art2010-row { grid-template-columns:4em minmax(0,1fr);gap:.4em; }}

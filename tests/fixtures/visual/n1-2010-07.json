@@ -1,0 +1,122 @@
+{
+  "source": "All14 paper/answer pages viewed;4–11 enlarged. Father4,short1/1/holiday2/1,middles6/6/2,emotion3,AB3/3,salary14 plus omission. Original art-contest two-column fields,3row prize table no invented header,restore prize certificate text and subject blank. Runtimequestionids/options/answers/listening preserved.",
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44",
+        "r-45"
+      ],
+      "textSha256": "1fc5af8b790c0d4de85c5665dcc6672a458c3f1aa30c392fc49faef657cf64ec"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "0967d55efbf1a49909208370d8e38697e474a407f5e47987e933404788aaffea"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "491dcebe6a821886d5acaaf912df882bb8ac02c64fd4b22e0c496436b694ae8f"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "802ff56a4270da2533a785e05891dac8e70d52e82578fb38c6d05a54ce86eaca"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-49"
+      ],
+      "textSha256": "4dddf2154039eff57c5610f4c0f9edd4df8915f092462a565ebd7396524ad750"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "9f7b74d8405d32c0a580e2f01257aaa3f04eba2b6243a9e28302027ee028d476"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-53",
+        "r-54",
+        "r-55"
+      ],
+      "textSha256": "618b1cd1121e027119bd9dad959e59965b6a2ccc4fb8e8510323a72aa7423de8"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-56",
+        "r-57",
+        "r-58"
+      ],
+      "textSha256": "a835247ebc19bb452218165c0f686846bd94a028d626d5373e9525f2dc3fbe82"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-59",
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "206e30d0f57b0721c1f4cc8979bba20f5dcd92884495ed68f8ab6facb25f1e79"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "3c60d33e6cff1bd82ed7a84432bfbf98675edcb9252a1855d20a81d837e9148f"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68",
+        "r-69"
+      ],
+      "textSha256": "20dd1e655cb29083fba23a465eeff44ef3fb61c2c4d6300e9bcc1d7f750fc8cf"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-70",
+        "r-71"
+      ],
+      "textSha256": "e6f74cff8c6950e7cbc028faf53721a83e52df0f1ee76e55e56077cb1fcd96bf"
+    }
+  ],
+  "questionContentSha256": "32f06c852b33d4fac2b68088c904d942f75ffd51ad14314240652f472cf916ac",
+  "unchangedListeningSha256": "05b4541d0be7503e31d067004308afc5a871c83656bb6128d8568adfb2af4349"
+}

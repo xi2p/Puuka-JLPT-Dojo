@@ -276,3 +276,17 @@
 .source-takemoto-parking th, .source-takemoto-parking td { text-align: center; vertical-align: middle; }
 .source-takemoto-parking tr > th:nth-child(2) { white-space: nowrap; }
 .source-takemoto > p { text-indent: 0; }
+
+/* December 2018 N1 scanned lodging form and listening calendars. */
+.source-layout .source-lodge-periods{border:1px solid currentColor;padding:.4em .8em;margin:.4em 0}
+.source-layout .source-lodge-periods section+section{border-top:1px dashed currentColor;margin-top:.5em;padding-top:.5em}
+.source-layout .source-lodge-periods p{margin:.25em 0}
+.source-layout .source-lodge-definition{border:1px dashed currentColor;padding:.5em .8em}
+.source-layout .source-lodge-fees{min-width:500px}
+.question-illustration .source-work-calendars{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:1em;max-width:640px;margin:0 auto}
+.question-illustration .source-work-calendar{min-width:0}
+.question-illustration .source-work-calendar table{width:100%;table-layout:fixed;min-width:0;margin:.2em 0;border-collapse:collapse}
+.question-illustration .source-work-calendar th,.question-illustration .source-work-calendar td{padding:.2em 0;text-align:center;font-weight:normal;white-space:nowrap;border:1px solid var(--line)}
+.question-illustration .source-calendar-workday{display:inline-flex;align-items:center;justify-content:center;border:1px solid currentColor;border-radius:50%;width:1.55em;height:1.55em;line-height:1}
+.question-illustration .source-calendar-heading,.question-illustration .source-calendar-legend{margin:.2em 0;text-align:left}
+@media(max-width:600px){.question-illustration .source-work-calendars{gap:.7em;font-size:11px}.question-illustration .source-work-calendar th,.question-illustration .source-work-calendar td{padding:.2em 0}}

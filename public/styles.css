@@ -442,3 +442,13 @@
 .source-course2012-schedule { padding-left: .2em; }
 .source-diagram2012 { max-width: 23em; margin: .5em auto; }
 .source-diagram2012 img { width: 100%; height: auto; }
+
+.source-bazaar2012-fields { margin: 1.2em 1em; }
+.source-bazaar2012-fields p { margin: .2em 0; }
+.source-pass2012-title { border: 1px solid var(--line); width: fit-content; margin-inline: auto; padding: 0 .2em; }
+.source-pass2012-lead { text-align: center; margin: 1.4em 0 1.8em; }
+.source-pass2012-feature { display: grid; grid-template-columns: 5em minmax(0,1fr); gap: .4em; margin-block: 1.3em; }
+.source-pass2012-feature > p { margin: 0; min-width: 0; }
+.source-pass2012-badge, .source-pass2012-prices span { border: 1px solid var(--line); padding: 0 .12em; }
+.source-pass2012-prices p { margin: .3em 0; }
+@media(max-width: 600px) { .source-pass2012-feature { grid-template-columns: 4em minmax(0,1fr); } }

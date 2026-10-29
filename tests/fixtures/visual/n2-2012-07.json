@@ -1,0 +1,117 @@
+{
+  "source": "All12HD pages viewed;4–11 enlarged. Lunch5paragraphs, shorts2/bazaar/1/2/1, middle5/4/3, A4/B2 and design7 verified. Kyoto leaflet four labeled features and two untabulated fare lines restored, medicine diagram cropped locally.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "11c7ec4ba45424a58940f33b70bfc30b6a148abda2f8c551f28d4fdae5e2f26c"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "5dff71f8a449e6b3b3523e6c09fc9a820ec692dd16f8a855cdfdda4e9ad5086c"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "0f6bccb2e0c8ff9c7fa5532ea53d3f4df104595bf52755ccf8549d64b2f8c7ce"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "e48678c2ed4f14ac8f3970b5dba2f5596f9b712884300f89813f20ce2c82789a"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "d6d5e8c8cffef98fad398f2c20090ad817832ed7054ca6925dadea5fdf8bb8b3"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "07bdc57d1a6035727a550b7af45815fd828a6e6f2945055f0aea58f758b865a7"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "6c93435516f2f41bba4b96a6b9fbc193118af933229f0d14f009f4f26009a75f"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "e1c36942230d53909a488788560c419a4cc9497192c991443da3f00b717fea56"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "c072e2b8e5b13d7fe135c7abc71520ee58493f856cf95c41754b301a33470630"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "7e8ce07f1685c2dc40ab35641ad3b38e2ec12994f53c536ea13b38983de3b6ef"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "f07d5f6c88ed3fb97d6e49e71a6621de690ce6dd87d41e499e17bcc04b136d70"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "a929159544aabaf9ca1f1e8632a4bbd8db8f9f33f1ee715d00a4e11b859378f2"
+    }
+  ],
+  "questionContentSha256": "37676e47578f851f5a66c8f8a0e95371d71466713246b32c9a62b24fe312e22a",
+  "unchangedListeningSha256": "b3e9948d3d19b8047a6f5b758c063c5e0f02860743a6cc48acceefd69542f4bd"
+}

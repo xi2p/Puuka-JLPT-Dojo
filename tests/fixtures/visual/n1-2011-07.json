@@ -1,0 +1,121 @@
+{
+  "source": "Original paper pages1–14 viewed;4–12 enlarged. CM6, shorts2/2/notice2/1, middle3/4/4, study3, A1/B3, philosophy8 plus omission; ten-row six-column job table includes cross-page row10. Added printed CM title and A citation.",
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44",
+        "r-45"
+      ],
+      "textSha256": "55884dae82bb5d6eeecd664f8f1a4d07f909aeff597f003eb78f909056c7f503"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "78245f7bd8e8505fe99e4dd40d93e17ff7d296e93b755ac9ee8eb86465eeba73"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "4fc61f778926ae4cb0be8c703aa824d724b38ce6a1d80d43c1eee09c532223dc"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "ce27dbc5f3b7b8903e02d5bf28450533bf96862334897188822d919263588477"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-49"
+      ],
+      "textSha256": "b0a990b7b66dc8d19c1ab945c9e8661f2085e732200c283938ce665563d45f24"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "5664a3457303c629a2e73a74110d04b8275dda236897392eced4fe1221bef2bb"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-53",
+        "r-54",
+        "r-55"
+      ],
+      "textSha256": "838f1991ad435a35b61ffb83176ee70116ec17344cc36d6929520833358cbfa1"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-56",
+        "r-57",
+        "r-58"
+      ],
+      "textSha256": "60bb0ec1e5cb345470e8e3c5b10edf48bb8585bd8b854a14fa9144c960835c0b"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-59",
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "0025bf75b5b89a0c07b06fd6f9786f2d0cfef39452acb3f7573a935db4a920ed"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "7abf7b6b706f097b6856097f5084ccfcb6f579657f27db80faca56099393206d"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "fdacfd68a660aaef732a6d2fc7c0630e3954928118753a73e96ed5972b5042a6"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "e320badd1d6bfc7d1916e73266df179edecacbda4990dce849ee6d280040c340"
+    }
+  ],
+  "questionContentSha256": "5d2287aebb8ac0480c42bc35055dd7f8c88f14cabb4c3547d69f87fd736c052a",
+  "unchangedListeningSha256": "a185f88a9541b1f701b928326ea97f999f03eb3fffc9c7677cc869d952ac2f01"
+}

@@ -464,3 +464,12 @@
 .source-museum2011 > p { margin: .45em 0; }
 .source-museum2011-deadline { margin-top: .8em; }
 .source-museum2011-deadline > p { margin: .45em 0; }
+
+/* July 2011 employment notice: keep all six columns readable. */
+.source-layout .source-jobs2011 { min-width: 950px; table-layout: fixed; }
+.source-jobs2011 th:first-child { width: 4%; }
+.source-jobs2011 th:nth-child(2) { width: 13%; }
+.source-jobs2011 th:nth-child(3) { width: 31%; }
+.source-jobs2011 th:nth-child(4) { width: 11%; }
+.source-jobs2011 th:nth-child(5) { width: 19%; }
+.source-jobs2011 th:nth-child(6) { width: 22%; }

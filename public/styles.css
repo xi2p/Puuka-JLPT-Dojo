@@ -354,3 +354,13 @@
 .source-reader-monitor h4 { font-size:1em; margin:1.3em 0 .3em; }
 .source-reader-monitor p { margin:.25em 0; }
 .question-illustration .source-monitor-applicants { min-width:850px; }
+
+.source-bbq-notice h4 { font-size:1em; text-align:left; margin:.5em 0 .2em; font-weight:normal; }
+.source-bbq-notice p { margin:.3em 0; }
+.source-bbq-contact { border-top:1px solid var(--line); text-align:right; padding-top:.5em; }
+.source-bbq-memo > ul { border:1px solid var(--line); padding:.5em 1.5em; display:grid; grid-template-columns:repeat(4,1fr); gap:.5em 1em; }
+@media(max-width:700px){.source-bbq-memo > ul { grid-template-columns:1fr; }}
+.source-bbq-memo > ul { list-style:none; padding:.5em .6em; grid-template-columns:repeat(4,minmax(0,1fr)); }
+.source-bbq-memo li { margin:0; padding:0; min-width:0; }
+.source-bbq-memo li::before { content:"● "; }
+@media(max-width:700px){.source-bbq-memo > ul { grid-template-columns:1fr; }}

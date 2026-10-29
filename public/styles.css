@@ -397,3 +397,9 @@
 .source-izumi-shopping p { margin: .2em 0; }
 .source-izumi-shopping .source-izumi-postage { width: 72%; min-width: 400px; }
 .source-izumi-buyers { min-width: 580px; }
+.source-garden2013 { min-width: 680px; }
+.source-garden2013 th:first-child { width: 2em; }
+.source-garden2013 th:nth-child(2) { width: 7em; }
+.source-garden2013 th:last-child { width: 6em; }
+.source-garden2013 td { vertical-align: middle; }
+.source-garden2013-notice > p { margin: .4em 0; }

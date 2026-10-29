@@ -407,3 +407,7 @@
 .source-komori-contest ul { list-style: none; padding-left: .8em; margin: .25em 0; }
 .source-komori-contest li::before { content: "・"; }
 .source-komori-students { min-width: 650px; }
+
+.source-health-notice > p { margin-block: .6em; }
+.source-health-fees { margin: .4em 0 .7em 1.5em; }
+.source-health-fees p { margin-block: .2em; }

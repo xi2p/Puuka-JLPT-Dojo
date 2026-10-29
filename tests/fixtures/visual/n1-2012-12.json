@@ -1,0 +1,121 @@
+{
+  "source": "All original test1–13 and independent answer14 viewed;4–12 enlarged. Seven-paragraph explanation essay, nine-paragraph adult time, A/B2+1, theater leaflet and double-frame relay roster verified. Existing r54 excluded scoring retained.",
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44",
+        "r-45"
+      ],
+      "textSha256": "b2d748ebf3165b1e1fb4ddf673dcc4bd7d00494f207100eec1e6142e0a42e305"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "9e644f677bb9eef0983bd3f50d576b68d7c79184705db22a898c8b3497f8937f"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "110ef972b8f6459c2e41f345facd53b30634c2516f3a79df135e1c8792639cdf"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "62cbcc17e414aedb9fefa11384de550ddcb6ddbd41f128c00c274e568597d46c"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-49"
+      ],
+      "textSha256": "5e5e03fdb7047d194f659964f11b2552f1ec872b8bbc048a719faa002e50c64e"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "7563777d09838b2f1306f03e681de22ccc36aa99f36bc8919251e2f0dad91bc4"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-53",
+        "r-54",
+        "r-55"
+      ],
+      "textSha256": "3859acac2abbbe2a6b1611590a9407f0b13da0e457f4277ed864f93d791dd06d"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-56",
+        "r-57",
+        "r-58"
+      ],
+      "textSha256": "de630022f75962cd24558ecf3b6f205926e52047b4850da4dca9cd0c97992120"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-59",
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "60c620ee6ddf37a0da29984d77c7a6c2effb437b369874147e8176d976ef4e95"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "8a63bb3818b3ca72c26959f262548edb3cc3b01255509d5e2fca028250f35625"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "49318b537123b081b3ad5a7a50b90fef81ca9e3f23548aa408e89b9b01bd0528"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "99462d21c04e34c1181183e644825fcf71355887246c6c1d5bda724c055fa319"
+    }
+  ],
+  "questionContentSha256": "31ca1d9856c10e71b0b297c2df392f802633130830f022bed62b4dcbc2740aed",
+  "unchangedListeningSha256": "a29c2c2d708dc84c6f2cc451f90a2db1d4e9447fe52dfb2543a3ea315a5b7a60"
+}

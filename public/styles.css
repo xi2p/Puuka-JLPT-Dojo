@@ -416,3 +416,8 @@
 .source-history-notice > h3 + p { text-align: center; }
 .source-history-payment { border: 1px solid var(--line); border-radius: 1.8em; padding: .8em 1em; margin-block: .7em; }
 .source-history-payment p { margin-block: .4em; }
+
+.source-theater2012 > p { margin-block: .55em; }
+.source-relay2012 { width: min(100%, 22em); padding: .8em 1.5em; margin: .5em auto 1em; border: 1px solid var(--line); text-align: center; }
+.source-relay2012 > div { border: 1px solid var(--line); padding: .5em 1em; }
+.source-relay2012 p { margin: .2em 0; }

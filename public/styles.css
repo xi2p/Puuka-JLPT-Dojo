@@ -198,3 +198,10 @@
 .source-pool-discount h4 { border-bottom: 1px solid currentColor; padding-bottom: .4em; }
 .source-pool-notice .source-pool-school { margin: 0 0 1.5em 1.5em; }
 .source-email .source-pool-email-close { margin-top: 0; padding-left: 1em; }
+.source-business-letter > p { margin: 0; text-indent: 0; text-align: left; }
+.source-business-letter .source-business-salutation { margin-top: 1.5em; }
+.source-business-letter .source-prose p { text-indent: 1em; }
+.source-campus-booking p { text-indent: 0; }
+.source-campus-booking .source-campus-subheading { margin-top: 1.3em; font-weight: 400; }
+.source-campus-booking-table { min-width: 660px; width: 100%; }
+.source-campus-booking-table th, .source-campus-booking-table td { border: 1px solid currentColor; background: transparent; font-weight: 400; vertical-align: middle; }

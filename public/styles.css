@@ -341,3 +341,6 @@
 .source-dormitory-memo p { margin:.25em 0; }
 .source-dormitory-memo > div { display:grid; grid-template-columns:1fr 1fr; gap:0 1em; }
 @media(max-width:600px){.source-dormitory-memo > div { grid-template-columns:1fr; }}
+
+.source-museum-friends p { margin:.25em 0; }
+.source-museum-friends > h3 { margin:.3em 0; }

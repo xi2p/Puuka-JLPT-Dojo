@@ -1,0 +1,121 @@
+{
+  "source": "All24 source pages viewed;5–12 enlarged; paragraphs, travel expense notice, A/B frames and museum membership leaflet checked",
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44",
+        "r-45"
+      ],
+      "textSha256": "d5393aa05f88849dffdf7f3843284bcd25f0c6eb926fd2e437b51cbde667fc16"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "85d40312be950dfaab583f46e0f9b7cde8d07c5f3dbc50e0607f92eb1b5ea65d"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "2546b7e93892ddcb36aac3007c9fed75559ba5481d57f131e051591e2a0cab55"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "746c41fd17fa6a9a786e2fb714affa2e57553097333067ed4fca4d3271e7fdc7"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-49"
+      ],
+      "textSha256": "fd94186ef29de1c57cb41af01a0942a1a11a759861390a31d90052a881f133e8"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "aef448174eca397086d37b09312c6ee6b6a38e3a670802242203a92832d694f9"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-53",
+        "r-54",
+        "r-55"
+      ],
+      "textSha256": "bc2af7da77351aec50d3d456bd53cc35dbdcd2972d6adbf6575322cd3bb1a62b"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-56",
+        "r-57",
+        "r-58"
+      ],
+      "textSha256": "2d28b96bacbc42d49e6615f015191057c038e70a62f8b2e770ce95a5b1361c17"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-59",
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "3eb46e4d3073549b2e58ba17699b8fd5d90ffd867ff35a4110b6975d4c071936"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "1914d06def81c801df8a568ac4ba64cb27d57238cff2cfe34f05e93c24c134ab"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "a70a5142b58d3f83ece62aa1f87cc05979daaa8def486316ad7efc726062cbb3"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "d0e48cb526a71a912879bd2f6eaa4f0279ef5c982c7c5009760c6ef3f17e49d9"
+    }
+  ],
+  "questionContentSha256": "01aab2d1191b5415ad9fae9a23b83f0fdcfaea78df15b4095fa43e6cf486a361",
+  "unchangedListeningSha256": "1761d0c644b94ce386ad4f2affa189bbd7c997407ece6f2ee3640de2f7b96503"
+}

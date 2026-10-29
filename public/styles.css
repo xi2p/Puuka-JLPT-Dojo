@@ -252,3 +252,9 @@
 .source-jujo-grant .source-jujo-schedule dt{font-weight:400;text-align:center}
 .source-jujo-grant .source-jujo-schedule>div:not(:last-child) dt:after{content:'⇩';display:block;font-size:1.5em;line-height:1.3}
 @media(max-width:600px){.source-jujo-grant dl>div{grid-template-columns:4.5em minmax(0,1fr);gap:.45em}}
+.source-asada-festival .source-asada-program{min-width:640px;width:100%;table-layout:fixed}
+.source-asada-festival .source-asada-program th:first-child{width:16%}
+.source-asada-festival .source-asada-program th:nth-child(2){width:32%}
+.source-asada-festival .source-asada-program td{vertical-align:middle}
+.source-asada-festival .source-asada-preparation{min-width:580px;width:100%}
+.source-asada-festival .source-asada-preparation th{width:15%;white-space:nowrap}

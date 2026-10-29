@@ -403,3 +403,7 @@
 .source-garden2013 th:last-child { width: 6em; }
 .source-garden2013 td { vertical-align: middle; }
 .source-garden2013-notice > p { margin: .4em 0; }
+.source-komori-contest p { margin: .25em 0; }
+.source-komori-contest ul { list-style: none; padding-left: .8em; margin: .25em 0; }
+.source-komori-contest li::before { content: "・"; }
+.source-komori-students { min-width: 650px; }

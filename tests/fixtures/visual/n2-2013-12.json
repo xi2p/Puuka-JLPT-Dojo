@@ -1,0 +1,117 @@
+{
+  "source": "All12 HD test pages viewed; pages4–5 and7–11 enlarged. Five tissue-essay paragraphs including page break, source boxes, office circular, A/B frames, Komori contest and q74 student table checked. Source deadline inconsistency retained.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "b0a431706bef8aca65ab66999355ee746af9895217cfc5fcc6367ec4d9285f30"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "ebbf8ebf8d2a806f00b6c0b968de4dd98267ff74bc867b562ae54a1e805a5edb"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "202fdd42a8e9739ed2941cb1e07839a62a6097b6eaa5fb0bd770dceddde61dc2"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "2543e91738fd73d1238237bc1104dc08cfc8e0e7067fb3e2a6c2f4c6a89cd134"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "3476255bb978e3bbdd0da5f162744ef64a9bd75bcd783ca34bd52e1f27274a4c"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "bccc5d592b2fbe52f0214a2bb57c9d88026fd52b633562a7d7d5d707c101fb1a"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "5957b512ec4063d090495ebfb70f4f763d9fce4e0bdac19aac0480512cd15f0b"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "64f4d15460be7225b97d9d6c09d90409be975dc78332ef5629fa0c885f00cfda"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "3d7628a81e1931a2b8395b9da8d555bac3df9f67166afa60101d3e9847a3bc4e"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "a2619af97abb124bd8db926f97ffa5e73fa03f7dcd61df853822b569afcc7525"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "f0742dfb5e10895d0dcaccdfe23389c5aa01a9433c2e2b495d817b0030238b03"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "3a01dfe590d2bb03dd922440f8a024d03d8b5b35625c941c1f5df9380dd49fb4"
+    }
+  ],
+  "questionContentSha256": "a21570f2f5dbea6ab548e9ee34e8699cb57dac763e896735258ae0f1ba3c2116",
+  "unchangedListeningSha256": "66a4021911791895f7b09a0fc7eb683fcb89181951ffac25202c15ffff5faaa5"
+}

@@ -504,3 +504,10 @@
 .source-layout .source-scholar2010-table,.question-illustration .source-scholar2010-table { min-width:900px; }
 
 .source-scholar2010 > p:not(.source-notice-heading) { margin:.2em 0; }
+
+/* December 2010 employment seminar: original notice and merged schedule. */
+.source-layout .source-seminar2010-title { font-size:1em; font-weight:400; margin:0 0 .3em; text-align:left; }
+.source-seminar2010 > p { margin:.2em 0; }
+.source-seminar2010 > .source-seminar2010-indent { padding-left:2em; }
+.source-layout .source-seminar2010-table { min-width:750px; margin:.25em auto; }
+.source-seminar2010-table td,.source-seminar2010-table th { text-align:center; font-weight:400; vertical-align:middle; }

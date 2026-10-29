@@ -1,0 +1,117 @@
+{
+  "source": "All12 HD pages viewed;4–10 enlarged. Pollen6,short1/1/1/notice3/3, middles3/11/5, AB1/1, memory9 plus omission. Seminar source10 table rebuilt five physical columns, 4-row part3 with 2-row①/② and break colspan4, preserved printed trade-company② label. All question IDs/options/answers/scoring/listening preserved.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "1863b54283be09b3dccb273a58394311a8106e70f27e102fb877ae515cad4e9f"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "918f8bae64e495ac16bd8d124396a52e327ebdc410ba58cade5657dfc2b46cb9"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "69db9eda22e589a2230a8a692d94075f76c7ba576a86d42308464f178b35dcdc"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "aca4607745375c1a3af924050ad2671bc78abbca399662ea3d28586557f5bd35"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "deac08f7c3458c5b62ce6a7b8b8c47cf738b9da43b111237ea6f159a5920bf76"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "122b5c085c778e42e7541c5bb67ca19daef6f60064dd953cb2810405c1f72fde"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "7fd7737a427ee6d77a4ad7561e59970d692782b5c099c5c48b714bbc33abc785"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "3c10b55220b7bdbb982b2ec873e17904e28548a6714ca2e6031f7857d30a30a7"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "3aed9de7e7474e5993bd23b854f93b7292dc9d2946b85270bedb25765db28969"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "0e7302d14ab2875d235157f7767649f809ff722e1cecc15806455d3c72d7e666"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "be1f017cc645eb4aef002287ef701d6b95fb4c8f25ecc48cb5821ec31cbda44f"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "b66a81849829057362f3be8fbb03401dea67ee1034b5b5b86e8af9ae155cc58b"
+    }
+  ],
+  "questionContentSha256": "21020266c0abafbed7236b5cef9b3e79c86bf3349951d2ae24862f6503d9c11e",
+  "unchangedListeningSha256": "19dffeb6feb0d8783c4027a8d18b3f9f83c2e6cc49a41e7c060ad84b0cdfe850"
+}

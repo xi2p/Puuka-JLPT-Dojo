@@ -459,3 +459,8 @@
 .source-contest2011-people th:nth-child(1) { width: 12%; }
 .source-contest2011-people th:nth-child(2) { width: 15%; }
 .source-contest2011-people th:nth-child(3) { width: 44%; }
+
+/* December 2011 museum application notice. */
+.source-museum2011 > p { margin: .45em 0; }
+.source-museum2011-deadline { margin-top: .8em; }
+.source-museum2011-deadline > p { margin: .45em 0; }

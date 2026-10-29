@@ -1,0 +1,117 @@
+{
+  "source": "All12 original HD pages viewed;4–11 enlarged. Housing4paragraphs with intro/frame, formal letter4body paragraphs, email3, elephant1, middle2/2/6, A2/B2, reading4, museum subtitle and cross-page deadline restored. Application items diagram cropped fromsource11.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "c8a6f23849f2fcecc2101c87491afc5e7c1ef9349d2237a524750b08d34c2c0c"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "06827af5cf6a486b1464dfe41ff075b26be92d30ee22737a39d624e6be256bbd"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "840eaad765ecc92fcfa697136ef87c43fe74a2261bed554bacc0c83a30f77e23"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "9b01ef04194f3424c43c0f63313860a1b8d754ac3ca6debe3713a0751e6e8662"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "16f4c075056c484cf812e197ef63b980ab9ab0fb419f35a93091fdea2f3dcc4d"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "df1d7cf7294882a3b7fc91a4faddb7609e0f33d692dded93eccc2f62506abdac"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "eb2abca7481f6e9bd45e457e69eff3468128996ab258312b9914d7bb98eae6e7"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "303b783278a109a6b5ccc1fa6aa93fdfd930552209f4f3dcf8a93ca94c54a3bb"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "0e46faf74e4378baf7dc30711db05a7f756b73d9fb26f080f85374b10c2cef28"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "0f96f185f9fe44f30ceda39bfe2610f3d86039c2670873a97bcb1b19d55e904a"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "d4b820e8472878a51a798f6b62de168ac4867c3c288bddaf59abaee4410155a6"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "5039cdbbc0dfce6791c7205418e232fae05f27fe75cdb124541c9834f0150cc8"
+    }
+  ],
+  "questionContentSha256": "b268a7ea0600dc065f49755a4599a00b1b0b85b49b9a7a14715d182ee69a84fe",
+  "unchangedListeningSha256": "eaa75f7d173d0df7b7fd60e305740770de5416864228bb720b09312ecbbd9cda"
+}

@@ -1,0 +1,117 @@
+{
+  "source": "All32 source PDF pages inspected; original6–13 used for reading/table;13 retyped reference pages checked; keypad position checked on retyped11",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "7125c1f01b794f9ff42b637ff8bda1a3b7d86db45601ccacfc0a3109f67f9778"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "8b79066dfae481906df068e18a6a5489882607d2c3033a4406e91ead52dab1e5"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "d7537c9ea5edc651eb37fbfe9a01a96998c71a7929c9fcdbcdbc97de539a7855"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "91163fdce8958cd8eb49824030c443b6e2ef6db0d2809540f558efd7805b9132"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "f914f3cb4640d85211fb43bfc13c5e83fb71a587c9c9c717560401d390387aaa"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "c321dde2b6555086a7e6972b4cef6e6c2c0fb5eda1afb9ce568492a5e2fd7d4e"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "35104f95cd08db978f47b2891cb670f7a5143561c0b37b5251e5c7d73ec7f25e"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "d80c67aef1090b62e4ba8395aca24fa896d7813fa95785a9d7f708a28714e7d2"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "8d0585929e49f31046412b8cb4da46d8d52d3ede84ce8fb4c110d52a8f348f4e"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "a398e92aa45d26c8873dc9c0739418fd52c13dea5f99875e127065f7cd128c4e"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "40589a8d1e1f6adcc7a9756a292b6753fef7faf84313866450ac7afdb5103d2b"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "c21a042f6b2d210a73baa4566319d56841ad4bfbb7eb8b0c626832d89fe2dae0"
+    }
+  ],
+  "questionContentSha256": "77a426f01c53530749ece7bf6536601061610de016011acf1844ad56ec8b01a8",
+  "unchangedListeningSha256": "036763029e53e470fcc3e20e949d48a94a9110d90f07363609e7d7d07c887853"
+}

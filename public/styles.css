@@ -213,3 +213,12 @@
 .source-delivery-notice .source-delivery-table { min-width: 660px; width: 100%; }
 .source-delivery-applicants { min-width: 660px; width: 100%; }
 .source-delivery-notice h4 { margin-top: 1.3em; }
+.source-layout .source-number-underline { display: inline-block; min-width: 2.5em; margin-inline: .25em; border-bottom: 1px solid currentColor; text-align: center; text-indent: 0; line-height: 1.3; }
+.source-book-refund-mail > p { margin: 0; text-indent: 0; }
+.source-book-refund-mail .source-mail-signature { margin-top: .2em; }
+.source-orchestra-notice { border: 3px double currentColor; padding: .5em; }
+.source-orchestra-notice h4 { margin: .2em 0 0; font-size: 1em; }
+.source-orchestra-notice p { margin: 0; text-indent: 0; }
+.source-orchestra-notice .source-orchestra-exchange { margin: 1em 0 .4em; padding: .4em; }
+.source-orchestra-prices { min-width: 660px; width: 100%; }
+.source-orchestra-prices th,.source-orchestra-prices td { border: 1px solid currentColor; background: transparent; text-align: center; font-weight: 400; white-space: nowrap; }

@@ -1,0 +1,123 @@
+{
+  "source": "All32 scanned pages reviewed; written1–12, listening12–13, key14, solutions15–30; source14 train reservation outlines correct previous diagram mistakes",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-48",
+        "r-49",
+        "r-50",
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "f8dc534ac718e26e6d67a3bc8cf91c8827972ce13f1d013180f43b7c07c231d0"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-53"
+      ],
+      "textSha256": "38ac7d43e7091f93c63f7f2dced7bef8e9264a84c6e56c553449aae8544a95f8"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-54"
+      ],
+      "textSha256": "8c6f4969dc271a97963af3dcb180b64899e8ceff6238ce49f0d17f10bdf77b74"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "64742144d451ea0aae95f3600fce587d1aa82819013f276e9e82404876868d55"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "e4eb51413e3b800c417baea3e0901f580cff5760c7c54f1d06f472f9a31236f6"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "aa55244b0fb8d56aeecd9c142df21dd52f0b4714e60fa37e766d0dac9ac7dbaa"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-58",
+        "r-59",
+        "r-60"
+      ],
+      "textSha256": "237b8f2958cc6bcfb31e3ff657f855add5cd7749880724accf48c26c8063ef97"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-61",
+        "r-62",
+        "r-63"
+      ],
+      "textSha256": "ff67b734c5a53f9854e539b51beff9c0edf1490bcc66fd82c4bbb503bf0a00a0"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-64",
+        "r-65",
+        "r-66"
+      ],
+      "textSha256": "948131b33c9c08e704f2d75fe4cc5da2da99cda0fcd9f623254e785eb9ed0781"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "d864497235dfb9789dbbd588979a474ca4235b056852a2edb56a0a13afa8fed9"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70",
+        "r-71"
+      ],
+      "textSha256": "650df524c4d3cf1c5917855195714d80e73c4cf43f539e074eaeb9e60acc1639"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "d872211528abce7d205e3cf7e1e3ac0958ddade84556161d82368fcd07246624"
+    }
+  ],
+  "questionContentSha256": "23f1747dd022e523638493fc13d2c1568d3e6ccc524987edb0707f3c3765cc9c",
+  "unchangedListeningSha256": "46461f8c2d4b9c8d5f2f12082c7acf4d663bff8e54642065eef62f858c57c13c",
+  "seatOutlines": [
+    "<rect x=\"44\" y=\"47\" width=\"107\" height=\"38\" rx=\"8\"/>",
+    "<path d=\"M120 47H151V127H91V89H120Z\"/>",
+    "<rect x=\"15\" y=\"47\" width=\"136\" height=\"38\" rx=\"8\"/>",
+    "<rect x=\"91\" y=\"47\" width=\"60\" height=\"80\" rx=\"8\"/>"
+  ]
+}

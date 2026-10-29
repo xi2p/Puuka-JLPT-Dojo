@@ -290,3 +290,9 @@
 .question-illustration .source-calendar-workday{display:inline-flex;align-items:center;justify-content:center;border:1px solid currentColor;border-radius:50%;width:1.55em;height:1.55em;line-height:1}
 .question-illustration .source-calendar-heading,.question-illustration .source-calendar-legend{margin:.2em 0;text-align:left}
 @media(max-width:600px){.question-illustration .source-work-calendars{gap:.7em;font-size:11px}.question-illustration .source-work-calendar th,.question-illustration .source-work-calendar td{padding:.2em 0}}
+/* December 2018 N2 suitcase leaflet and reserved train seats. */
+.source-layout .source-rental-intro{display:flow-root;margin-bottom:1.2em}
+.source-layout .source-rental-intro h4,.source-layout .source-rental-fees h4{margin:.4em 0;font-size:1em;font-weight:normal}
+.source-layout .source-rental-luggage{float:right;width:29%;max-width:200px;margin:.2em 0 .4em .8em}
+.source-layout .source-rental-fees table{width:82%;min-width:380px;margin:.3em auto}
+.question-illustration .source-train-seats svg{min-width:540px;width:100%;max-width:none}

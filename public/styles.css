@@ -421,3 +421,14 @@
 .source-relay2012 { width: min(100%, 22em); padding: .8em 1.5em; margin: .5em auto 1em; border: 1px solid var(--line); text-align: center; }
 .source-relay2012 > div { border: 1px solid var(--line); padding: .5em 1em; }
 .source-relay2012 p { margin: .2em 0; }
+
+.source-water2012 > p { margin-block: .55em; }
+.source-water-fields { margin: 1em 0; }
+.source-water-fields p { margin: .1em 0; }
+.source-fridge-label { display: inline-block; border: 1px solid var(--line); padding: .3em .8em; line-height: 1.5; margin-left: 1em; }
+.source-fridge2012 { min-width: 38em; table-layout: fixed; }
+.source-fridge2012 th:first-child { width: 25%; }
+.source-face-grid { display: grid; grid-template-columns: repeat(4,minmax(0,1fr)); gap: .6em; max-width: 44em; margin: .4em auto; }
+.source-face-grid figure { margin: 0; min-width: 0; text-align: center; }
+.source-face-grid img { display: block; width: 100%; height: auto; }
+@media(max-width: 600px) { .source-face-grid { grid-template-columns: repeat(2,minmax(0,1fr)); max-width: 25em; } }

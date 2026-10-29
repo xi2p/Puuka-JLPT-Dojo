@@ -1,0 +1,117 @@
+{
+  "source": "All13HD pages viewed;4–12 enlarged. Four-paragraph cherry essay,title, notices, original underlined references, A/B1+1, five-paragraph career essay, three-column11row fridge table with3/2/2 rowspans and four source face crops verified.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "af6cf88654a0dad3ff9bfdcbe78f944927ffe322f6dd4df4f3be2ffcec589371"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "18f5c59a434f7b407989c4acc949c158225c3d5acf411b2be21caa486b39a963"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "cf043df508af2847be7fc5caf6a3c84aa40b94e21fe4ad089197aa9d5982b108"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "d77aecaf33d23e5fb7a33a5a4c12ae52189ad79202e35ffc195618ef4a384997"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "3017a270e3f5bc999dd3f298bd0a985056acdaa934d1723f40ef4508e7346e1a"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "a377cfa4ca119355850012ce6dec88940cc7a914120ce7f879a26bd3d029eeda"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "462ee42e26bec6a0af076e0894a656d8afdf550edf6cb1d3b2ebb1c9bf2745c9"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "3470e6216d7b7c446a0ddabccb2fb4f3ee3644b674246d893281bb6583bdb1b6"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "0c7bb6db899db6f097a589a27f2d8e42ff1ff10f645db771089f69d9474eca83"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "74affe6616f14c24ef037686178e997e69bcfb4d8cef1351462f13a5ded2d8c0"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "79bdc4494c39852197e6a767c484bab449eeb11dea16855670c06dee166165ce"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "a78fb8d9049e9ddc688108dd77d60d5df3556a28b610d8596c585639fd5f8b19"
+    }
+  ],
+  "questionContentSha256": "3bedcb5b3bcb5fcb139aa428dba63c145a6944409f2c27b716adc3c3f3a075c4",
+  "unchangedListeningSha256": "5964383a9a9e949d79a76135147d916b4e572a7e1e2c53da0ee0cfb8d33eb9fe"
+}

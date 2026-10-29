@@ -258,3 +258,16 @@
 .source-asada-festival .source-asada-program td{vertical-align:middle}
 .source-asada-festival .source-asada-preparation{min-width:580px;width:100%}
 .source-asada-festival .source-asada-preparation th{width:15%;white-space:nowrap}
+.source-museum-events { border: 1px solid currentColor; margin: 1em 0; }
+.source-museum-event { padding: .8em 1em; }
+.source-museum-event + .source-museum-event { border-top: 1px solid currentColor; }
+.source-museum-event h4 { margin: 0 0 .4em; }
+.source-museum-event dl { margin: 0; }
+.source-museum-event dl > div { display: grid; grid-template-columns: 6em minmax(0, 1fr); }
+.source-museum-event dt::before { content: '◇'; }
+.source-museum-event dd { margin: 0; }
+.source-museum > p { text-indent: 0; }
+@media (max-width: 600px) {
+  .source-museum-event { padding: .6em; }
+  .source-museum-event dl > div { grid-template-columns: 5.5em minmax(0, 1fr); }
+}

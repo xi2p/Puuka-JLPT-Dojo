@@ -190,3 +190,11 @@
 .source-research-grant-applicants{min-width:660px;width:100%;line-height:1.6}
 .source-research-grant-applicants th,.source-research-grant-applicants td{border:1px solid currentColor;background:transparent;padding:.3em .5em;text-align:center;vertical-align:middle;color:inherit;font-weight:400}
 .source-research-grant-applicants td:first-child{white-space:nowrap}
+.source-pool-notice .source-pool-fees,
+.source-pool-conditions { min-width: 660px; }
+.question-illustration .source-table-scroll { overflow-x: auto; max-width: 100%; }
+.source-pool-notice .source-pool-fees td[rowspan] { vertical-align: middle; text-align: center; }
+.source-pool-discount { margin-block: 1.7em 1em; text-align: center; }
+.source-pool-discount h4 { border-bottom: 1px solid currentColor; padding-bottom: .4em; }
+.source-pool-notice .source-pool-school { margin: 0 0 1.5em 1.5em; }
+.source-email .source-pool-email-close { margin-top: 0; padding-left: 1em; }

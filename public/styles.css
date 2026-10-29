@@ -296,3 +296,8 @@
 .source-layout .source-rental-luggage{float:right;width:29%;max-width:200px;margin:.2em 0 .4em .8em}
 .source-layout .source-rental-fees table{width:82%;min-width:380px;margin:.3em auto}
 .question-illustration .source-train-seats svg{min-width:540px;width:100%;max-width:none}
+.source-volunteer > h4 { font-size: 1em; margin: .25em 0 0; }
+.source-volunteer > h4 + p { margin-top: 0; }
+.source-volunteer .source-volunteer-table { min-width: 540px; }
+.source-volunteer-table th { width: 28%; text-align: left; font-weight: normal; }
+.source-volunteer-table td, .source-volunteer-table th { padding: .35em .55em; }

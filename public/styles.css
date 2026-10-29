@@ -306,3 +306,9 @@
 .source-writing-support .source-support-times p { margin: 0; }
 .source-writing-support > p:not(.source-right) { text-indent: 1em; }
 .source-writing-applicants { min-width: 580px; }
+.source-certificate h4 { text-align:left; font-size:1em; margin:1em 0 .3em; }
+.source-certificate-table { min-width:650px; }
+.source-certificate-table td[rowspan] { text-align:center; vertical-align:middle; }
+.source-certificate-memo { margin:10px 0; max-width:620px; }
+.source-certificate-memo ul { margin:.3em 0; }
+.source-certificate-memo { border:1px solid var(--line); padding:12px 16px; }

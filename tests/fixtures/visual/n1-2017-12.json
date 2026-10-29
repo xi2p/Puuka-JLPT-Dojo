@@ -1,0 +1,121 @@
+{
+  "source": "All26 scans inspected; source5–12 reading; same-day and five-day certificate rowspans; listening remains omitted due incomplete source",
+  "blocks": [
+    {
+      "groupId": "r7",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-41",
+        "r-42",
+        "r-43",
+        "r-44",
+        "r-45"
+      ],
+      "textSha256": "480087abd711ecbb9f99439a1da4943792ec17b7ef4f28f1cb69219f23bbe556"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-46"
+      ],
+      "textSha256": "b78fae33b326276d6315dad434c7ff0f1c03ca5f8304766e71f9b5f87d6c9bd7"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-47"
+      ],
+      "textSha256": "42ac73155ff60353846652f91a9f4ca66389f009fca672b295b68c6a20306b22"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-48"
+      ],
+      "textSha256": "34c73e6fe3b5cca273dadce069917ad515ed85dbc40e1fa73d5a1fc12a927770"
+    },
+    {
+      "groupId": "r8",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-49"
+      ],
+      "textSha256": "8620ec6612fd7c7b2f8e4e62e538d54fb439c5e6af38f6be57f0a37267c37f6e"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52"
+      ],
+      "textSha256": "06d17b6f5088c0e1c0e7ca11883a9e51f26404218f01faa5908dd8b49b9a80d9"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-53",
+        "r-54",
+        "r-55"
+      ],
+      "textSha256": "992f6272e28561be877b000d13bab1d71c0e7dc31723bfdc36a4d3d8e289b750"
+    },
+    {
+      "groupId": "r9",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-56",
+        "r-57",
+        "r-58"
+      ],
+      "textSha256": "747b5d0c1c724d3818f32a572a1419a2978b36d67b338d8b15d19507f225f64b"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-59",
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "88eb3a69fbc517df36d465127886ab4b13ecc01a9ef6882df0ab96a1ac6affb4"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-63",
+        "r-64"
+      ],
+      "textSha256": "f08fb817c3cc10736d86254696ab09bba2c48ae9d5341af5ec3e79b245ded784"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-65",
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "f3ab4054e2c54a12d8a6ca3c84cec49a87c29ec02aac4fcef69867cffc965cb4"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "c112babf29389b8000cd37fb97016fa7e332c4479841e32fa376713881060846"
+    }
+  ],
+  "questionContentSha256": "9cc2f2673448c6d3b19f12d7b5e782b963a558459eff04289d89b2d5a846d68e",
+  "unchangedListeningSha256": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+}

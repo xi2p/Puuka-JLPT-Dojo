@@ -320,3 +320,6 @@
 .source-gym-table { min-width:640px; }
 .source-gym-table td[rowspan] { vertical-align:middle; }
 .source-gym-benefits { margin:.5em 0; }
+.source-library-name { text-decoration:underline; }
+.source-interlibrary h4 { font-size:1em; text-align:left; margin:1em 0 .25em; }
+.source-interlibrary-table { min-width:540px; }

@@ -205,3 +205,11 @@
 .source-campus-booking .source-campus-subheading { margin-top: 1.3em; font-weight: 400; }
 .source-campus-booking-table { min-width: 660px; width: 100%; }
 .source-campus-booking-table th, .source-campus-booking-table td { border: 1px solid currentColor; background: transparent; font-weight: 400; vertical-align: middle; }
+.source-library-opinion { border: 1px solid currentColor; padding: .6em 1em; }
+.source-library-opinion .source-prose p { margin: 0; text-indent: 1em; }
+.source-center-email { border-block: 1px solid currentColor; padding-block: 1em; }
+.source-center-email .source-prose { margin-top: 1.3em; }
+.source-center-email .source-prose p { text-indent: 0; }
+.source-delivery-notice .source-delivery-table { min-width: 660px; width: 100%; }
+.source-delivery-applicants { min-width: 660px; width: 100%; }
+.source-delivery-notice h4 { margin-top: 1.3em; }

@@ -166,3 +166,14 @@
 .source-hiking .source-hiking-routes td:first-child{width:6em}.source-hiking .source-hiking-routes td:last-child{width:5em;white-space:nowrap}
 .source-hiking p{margin:0;text-indent:0}
 .source-hiking .source-hiking-bullet{padding-left:1em;text-indent:-1em}
+.source-layout .source-science-vertical{height:20em;margin:0 auto;padding:.6em 1em;border:1px solid currentColor}
+.source-science-vertical p{margin:0;text-indent:1em;line-height:1.9}
+.source-layout .source-research-grant{padding:.5em 1em;line-height:1.75}
+.source-research-grant .source-title{font-size:1.05em;margin:0 0 1em}
+.source-research-grant h4{font-size:1em;margin:.2em 0 0}
+.source-research-grant p{margin:0 0 0 1em;text-indent:0}
+.source-research-grant .source-research-grant-documents{margin:1em 0 0;padding:.2em .5em}
+.source-research-grant .source-research-grant-documents p{margin:0}
+.source-research-grant-applicants{min-width:660px;width:100%;line-height:1.6}
+.source-research-grant-applicants th,.source-research-grant-applicants td{border:1px solid currentColor;background:transparent;padding:.3em .5em;text-align:center;vertical-align:middle;color:inherit;font-weight:400}
+.source-research-grant-applicants td:first-child{white-space:nowrap}

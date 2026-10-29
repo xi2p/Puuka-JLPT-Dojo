@@ -411,3 +411,8 @@
 .source-health-notice > p { margin-block: .6em; }
 .source-health-fees { margin: .4em 0 .7em 1.5em; }
 .source-health-fees p { margin-block: .2em; }
+
+.source-history-notice > p { margin-block: .35em; }
+.source-history-notice > h3 + p { text-align: center; }
+.source-history-payment { border: 1px solid var(--line); border-radius: 1.8em; padding: .8em 1em; margin-block: .7em; }
+.source-history-payment p { margin-block: .4em; }

@@ -1,0 +1,117 @@
+{
+  "source": "All12HD pages viewed;5–10 enlarged, ordinary scan13/16 crosschecked for full A and sales notice. HD A opening omission recorded; complete ordinary-source A retained. Paragraphs, email/office letter, A/B frames and untabulated book fields/payment box restored.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "239d3d40f6defdcb5680e9fa004e915496c4ec34eac1dfac7b6ec1ac824db1d0"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "0ba23ecd1a66bea2b59ce2b21e47173bcf82f177a51e70067417911a66e3b21c"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "3ab7ada91f2272b2797ec829e2390e123508afa9bf2ee2eff4830b468633946e"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "0ac75a051c4b96905c6f0f14dd1ca8ab1e4fbab0de670fc13f1f216e60b999d6"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "a6cf5e2614e63234fe213a7b4604c133ad99357a2da86e0660b71cd3ba217779"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "4f001aa76ad3d55024d8c6af6324b8c3d781a8e7228b19d53d1a40e8426c8047"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "470b245ff73b5e47ae00cc31509114a666ff157bed34b71038972d01c66d912d"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "fa07e35e6664e603e71de419a9f46b716cbd1c4baa33c1dcf13af710f8d98677"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "299e1af874f3e14b9db66c45f3fa6f061d5f9c3e82f7f8e10af07ea623808f7a"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "dd6d003ac09b8f979a337c536c99e42ab36577bb326c8dad857427cf8167e208"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "d5e136424f09f00e23f7f51ffb6d75476be777342271e4cc3ea0a80719bdb4c7"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "6d72bc9ea080f04d1e5883f250ee743430772f7b56974c2a17f82a76203965e6"
+    }
+  ],
+  "questionContentSha256": "7a4239a704c46ea68f9c8012b34b9d7a1cc6d77d9023b663285c53e65874b6ae",
+  "unchangedListeningSha256": "1b2021734a113d72f3f9cb51c41bb36c4f6b4ad410e5c2d57f8a941c1f1b49a7"
+}

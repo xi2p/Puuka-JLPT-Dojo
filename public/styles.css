@@ -67,6 +67,13 @@
 .source-layout .source-notice>h3{font-size:1.05em;margin:0;text-align:center}
 .source-layout .source-notice>p{margin:0;line-height:1.75}
 .source-layout .source-table-scroll{overflow-x:auto;max-width:100%;margin:.25em 0}
+.source-layout .source-rounded{border-radius:1em}
+.source-campus-notice h4{font-size:1em;font-weight:400;margin:.7em 0}
+.source-tennis-notice h4{font-size:1em;margin:.6em 0 .2em}
+.source-tennis-notice>p{text-indent:1em;margin:.2em 0}
+.source-layout .source-tennis-table{width:100%;min-width:32em;border:0;border-collapse:collapse;margin:.4em 0}
+.source-layout .source-tennis-table th,.source-layout .source-tennis-table td{border:0;background:transparent;padding:.15em .5em;text-align:center;font-weight:400;vertical-align:middle}
+.source-layout .source-tennis-table tr:first-child th:empty{padding:0;height:0}
 .source-layout table.source-course-table{min-width:740px;margin:0;font-size:.86em;line-height:1.65;table-layout:auto}
 .source-layout table.source-course-table th,.source-layout table.source-course-table td{border:1px solid currentColor;padding:.35em .45em;color:inherit;text-align:center;vertical-align:middle}
 .source-layout table.source-course-table td:nth-child(2){text-align:left;min-width:12em}

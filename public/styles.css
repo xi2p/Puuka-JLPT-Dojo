@@ -378,3 +378,14 @@
 .source-employment-bottom .source-box p { margin: .25em 0; }
 .source-employment-sessions { min-width: 420px; }
 @media (max-width: 650px) { .source-employment-bottom { grid-template-columns: 1fr; } }
+.source-relocation p { margin: .15em 0; text-indent: 0; }
+.source-coast-notice { border: 1px solid currentColor; padding: .45em .6em; }
+.source-coast-notice h4 { border-top: 1px solid currentColor; font-size: 1em; margin: .5em -.6em 0; padding: .15em .6em 0; }
+.source-coast-notice p { margin: .25em 0; }
+.source-coast-notice > .source-table-scroll table { margin: .25em 0; }
+.source-coast-flow { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1.4em; margin: .4em 0; }
+.source-coast-flow > div { border: 1px solid currentColor; padding: .2em .4em; }
+.source-coast-notice ul { list-style: none; padding-left: .2em; }
+.source-coast-notice li { margin: .3em 0; }
+.source-coast-notice li::before { content: "・"; }
+@media (max-width: 650px) { .source-coast-flow { grid-template-columns: 1fr; gap: .5em; } }

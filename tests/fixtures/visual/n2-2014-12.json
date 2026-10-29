@@ -1,0 +1,117 @@
+{
+  "source": "All12 HD source pages viewed in contact sheets, pages4–10 enlarged. Original paragraphs across page boundaries, A/B frames, relocation notice, coastal cleanup leaflet and three independent workflow boxes checked.",
+  "blocks": [
+    {
+      "groupId": "r9",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-50",
+        "r-51",
+        "r-52",
+        "r-53",
+        "r-54"
+      ],
+      "textSha256": "38eb02cc73173b631538d0c35b9b52f4aab441437e1ef1d97d0b90655b1cd4c8"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-55"
+      ],
+      "textSha256": "80a22c43a7905e38117a471a78419324bad30813303617d7609fd6ee5e00b1cf"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-56"
+      ],
+      "textSha256": "4d8c7288f57b5938c61f46da19fb13229a231761f549da5b6eaac091bd074638"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-57"
+      ],
+      "textSha256": "108613bafdea8d01f4c645ec6a7eb5110f68927384ddee0ac6bff7efcf7d20bb"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 3,
+      "questionIds": [
+        "r-58"
+      ],
+      "textSha256": "765773756db0baa5ad37d9e14544f6b76afb018aa53477843b25e9d70e5b9248"
+    },
+    {
+      "groupId": "r10",
+      "blockIndex": 4,
+      "questionIds": [
+        "r-59"
+      ],
+      "textSha256": "269dfe1fa28f8b68e9260ddce1eed21a955dec8bbfc4aa88ae2d5400949ac47e"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-60",
+        "r-61",
+        "r-62"
+      ],
+      "textSha256": "6a7564aa1803502c700e70f7b58959722a3244503eb671ac2810b3b922263c93"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 1,
+      "questionIds": [
+        "r-63",
+        "r-64",
+        "r-65"
+      ],
+      "textSha256": "ff733f3c3b6d09a966a579ae33fd937525cc8a3549b79f7f511f497913755fc9"
+    },
+    {
+      "groupId": "r11",
+      "blockIndex": 2,
+      "questionIds": [
+        "r-66",
+        "r-67",
+        "r-68"
+      ],
+      "textSha256": "eb88421b983a7d1647e8bfd9530fe1ed70314131b90ad50e0d7d1af64526b672"
+    },
+    {
+      "groupId": "r12",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-69",
+        "r-70"
+      ],
+      "textSha256": "6575779df58acbb8bdc875420bfc50a6af8680409aee217dc4a139fcddbc5d1d"
+    },
+    {
+      "groupId": "r13",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-71",
+        "r-72",
+        "r-73"
+      ],
+      "textSha256": "e153ffe0e6aa3e3c1fa28b824b654fb4e8c28c9ac01a968b30c3545c1cf73584"
+    },
+    {
+      "groupId": "r14",
+      "blockIndex": 0,
+      "questionIds": [
+        "r-74",
+        "r-75"
+      ],
+      "textSha256": "3ed57b53a83ac43301bfe634194de2e1fcf734b91970448d676aec7be4d29295"
+    }
+  ],
+  "questionContentSha256": "c88f77d72a6d6c2308b163a1736911112d3e218787968e42562fe16447051a0f",
+  "unchangedListeningSha256": "5030f3c170b96e18bfb3565d7f97032b88ad132d2ef9b8cc0c198cab880a4bfd"
+}

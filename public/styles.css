@@ -344,3 +344,9 @@
 
 .source-museum-friends p { margin:.25em 0; }
 .source-museum-friends > h3 { margin:.3em 0; }
+
+.source-factory-visit p { margin:.35em 0; }
+.source-glass-workshops h4 { font-size:1em; text-align:left; margin:.4em 0 0; }
+.source-glass-grid { display:grid; grid-template-columns:1fr 1fr; border-top:1px solid var(--line); border-left:1px solid var(--line); }
+.source-glass-course { padding:.5em .7em; border-right:1px solid var(--line); border-bottom:1px solid var(--line); min-width:0; }
+.source-glass-course p { margin:.15em 0; }

@@ -23,7 +23,7 @@
 
 
 
-.question-head .question-text{flex:1;min-width:0}.question-label-stack{display:inline-flex;flex-direction:column;align-items:center;gap:9px;flex-shrink:0;width:30px}.question-label-stack>.question-number{width:29px}.question-flag-toggle{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:30px;height:28px;padding:0;border:0;border-radius:4px;background:transparent;color:#7b886c;cursor:pointer}.question-flag-toggle svg{display:block;flex-shrink:0}.question-flag-toggle .flag-cloth{fill:none}.question-flag-toggle[aria-pressed="true"]{color:#967021}.question-flag-toggle[aria-pressed="true"] .flag-cloth{fill:currentColor}.question-flag-toggle:hover{background:#f2f3ed}.question-flag-toggle:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.exam-layout{grid-template-columns:max-content minmax(0,1fr)}.group-link{display:grid;grid-template-columns:minmax(max-content,1fr) 28px 24px;column-gap:4px;align-items:center}.group-link .nav-label{display:grid;grid-template-columns:38px max-content;column-gap:4px;min-width:0;white-space:nowrap}.group-link .nav-status{text-align:right;font-variant-numeric:tabular-nums}.group-link .flag-icon{width:24px;min-width:24px;text-align:right;white-space:nowrap;font-size:10px;font-variant-numeric:tabular-nums}
+.question-head .question-text{flex:1;min-width:0}.question-flag-toggle{display:inline-flex;align-items:center;justify-content:center;flex-shrink:0;width:30px;height:28px;padding:0;border:0;border-radius:4px;background:transparent;color:#7b886c;cursor:pointer}.question-flag-toggle svg{display:block;flex-shrink:0}.question-flag-toggle .flag-cloth{fill:none}.question-flag-toggle[aria-pressed="true"]{color:#967021}.question-flag-toggle[aria-pressed="true"] .flag-cloth{fill:currentColor}.question-flag-toggle:hover{background:#f2f3ed}.question-flag-toggle:focus-visible{outline:2px solid var(--accent);outline-offset:2px}.exam-layout{grid-template-columns:max-content minmax(0,1fr)}.group-link{display:grid;grid-template-columns:minmax(max-content,1fr) 28px 24px;column-gap:4px;align-items:center}.group-link .nav-label{display:grid;grid-template-columns:38px max-content;column-gap:4px;min-width:0;white-space:nowrap}.group-link .nav-status{text-align:right;font-variant-numeric:tabular-nums}.group-link .flag-icon{width:24px;min-width:24px;text-align:right;white-space:nowrap;font-size:10px;font-variant-numeric:tabular-nums}
 /* Source-checked passages opt in; unreviewed banks keep their existing layout. */
 .passage.source-passage{background:transparent;border:0;border-radius:0;padding:0;margin:24px 0 18px;white-space:normal;color:var(--text)}
 .source-layout{line-height:1.95;overflow-wrap:anywhere}
@@ -119,3 +119,10 @@
 .source-hotel .source-meal-details dt{border:1px solid currentColor;align-self:start;line-height:1.5;font-weight:600;padding:0 .1em}
 .source-hotel .source-meal-details dd{margin:0}
 .source-hotel .source-meal-booking{margin:0 0 1em 1.5em}
+
+/* Keep the marker beside the first choice without adding height to the stem. */
+.question-options-row{display:grid;grid-template-columns:29px minmax(0,1fr);column-gap:15px;align-items:start;margin-top:6px}
+.question-options-row>.question-flag-toggle{margin-top:7px;justify-self:center}
+.question-options-row>.choices{min-width:0;margin:0}
+@media(max-width:760px){.question-options-row{column-gap:10px}.question-options-row>.question-flag-toggle{margin-top:8px}}
+.question-head>.question-number{width:29px;flex-basis:29px}

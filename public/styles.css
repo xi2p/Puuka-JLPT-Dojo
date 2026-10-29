@@ -74,6 +74,12 @@
 .source-layout .source-tennis-table{width:100%;min-width:32em;border:0;border-collapse:collapse;margin:.4em 0}
 .source-layout .source-tennis-table th,.source-layout .source-tennis-table td{border:0;background:transparent;padding:.15em .5em;text-align:center;font-weight:400;vertical-align:middle}
 .source-layout .source-tennis-table tr:first-child th:empty{padding:0;height:0}
+.source-layout .source-memory-vertical{height:21em;border:1px solid currentColor;padding:.5em;box-sizing:content-box}
+.source-course-subsidy h4{font-size:1em;font-weight:400;margin:.7em 0 .2em}
+.source-course-subsidy>p{margin:.2em 0;text-indent:1em}
+.source-course-subsidy>.source-course-contact{margin-top:1em;margin-left:2em;text-indent:0}
+.source-layout .source-course-subsidy-table{width:100%;min-width:34em;border:0;border-collapse:collapse}
+.source-layout .source-course-subsidy-table th,.source-layout .source-course-subsidy-table td{border:0;background:transparent;padding:0 .5em;text-align:center;font-weight:400}
 .source-layout table.source-course-table{min-width:740px;margin:0;font-size:.86em;line-height:1.65;table-layout:auto}
 .source-layout table.source-course-table th,.source-layout table.source-course-table td{border:1px solid currentColor;padding:.35em .45em;color:inherit;text-align:center;vertical-align:middle}
 .source-layout table.source-course-table td:nth-child(2){text-align:left;min-width:12em}

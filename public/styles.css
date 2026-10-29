@@ -364,3 +364,17 @@
 .source-bbq-memo li { margin:0; padding:0; min-width:0; }
 .source-bbq-memo li::before { content:"● "; }
 @media(max-width:700px){.source-bbq-memo > ul { grid-template-columns:1fr; }}
+.source-vitamin-notice h4 { margin: 1.6em 0; text-align: left; }
+.source-vitamin-notice .source-prose { margin: 1.8em 0; }
+.source-employment-title { border: 1px solid currentColor; padding: .3em .6em; max-width: 36em; margin-inline: auto; }
+.source-employment-schedule { min-width: 700px; }
+.source-employment-schedule th:first-child { width: 2em; }
+.source-employment-schedule th:nth-child(2) { width: 6em; }
+.source-employment-schedule th:nth-child(3) { width: 2em; }
+.source-employment-schedule th:nth-child(4) { width: 11em; }
+.source-employment-bottom { display: grid; grid-template-columns: 1fr 2fr; gap: 1.3em; align-items: start; }
+.source-employment-bottom .source-box { margin: 0; padding: .5em; min-width: 0; }
+.source-employment-bottom h4 { margin: 0; }
+.source-employment-bottom .source-box p { margin: .25em 0; }
+.source-employment-sessions { min-width: 420px; }
+@media (max-width: 650px) { .source-employment-bottom { grid-template-columns: 1fr; } }

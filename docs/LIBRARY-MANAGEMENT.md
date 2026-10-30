@@ -66,7 +66,3 @@ node scripts/build-library-catalog.js exams tmp/library-export/catalog.json
 | `POST /api/library/remove` | 按 `id` 移除本机运行文件，保留进度 |
 
 所有变更接口校验本机 Origin 和 `X-Puuka-Request: 1`，不接受任意仓库或下载地址。程序更新与题库变更互斥，文件路径和大小受限。程序下载来自固定 GitHub 仓库，题库下载来自固定浙大 GitLab 项目，不上传本机题目、音频或作答记录。
-
-## 本次迁移
-
-59 套已验收试卷迁入题库仓库。程序仓库重建为不含 `exams/` 的新历史；旧克隆如需继续用于开发，应重新克隆程序仓库，并保留原本机 `exams/`、`data/` 和进度备份。不要将旧历史合并回新分支。GitLab 服务器上不可达旧对象的最终清理由平台管理，不影响新版程序 ZIP 的体积。

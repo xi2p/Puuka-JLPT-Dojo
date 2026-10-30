@@ -16,6 +16,7 @@
 /tools/
 /docs/batch-progress.json
 /docs/imports/
+/docs/context/archive/
 /docs/*preview.png
 
 # Portable runtime, dependencies and build caches

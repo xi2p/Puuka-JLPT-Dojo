@@ -53,7 +53,7 @@ try {
   & $node --check (Join-Path $root 'server.js')
   if ($LASTEXITCODE -ne 0) { throw '程序文件不完整，请重新下载项目。' }
   Write-Host "部署完成。Node.js：$node" -ForegroundColor Green
-  Write-Host '下一步：双击「启动网站.cmd」，即可使用随项目附带的题库。'
+  Write-Host '下一步：双击「启动网站.cmd」，在首页选择并下载需要的试卷。'
   Write-Host '部署不会启动网站、安装全局软件或修改系统 PATH。'
   exit 0
 } catch {

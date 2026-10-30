@@ -1,6 +1,6 @@
 # 程序与题库的维护
 
-程序仓库：[puuka-jlpt-dojo](https://git.zju.edu.cn/3240104224/puuka-jlpt-dojo)。题库仓库：[puuka-jlpt-dojo-lib](https://git.zju.edu.cn/3240104224/puuka-jlpt-dojo-lib)。两者独立发布，程序 ZIP 不含试卷或音频。
+程序仓库：[puuka-jlpt-dojo](https://github.com/xi2p/Puuka-JLPT-Dojo)。题库仓库：[puuka-jlpt-dojo-lib](https://git.zju.edu.cn/3240104224/puuka-jlpt-dojo-lib)。两者独立发布，程序 ZIP 不含试卷或音频。
 
 ## 用户端
 
@@ -65,7 +65,7 @@ node scripts/build-library-catalog.js exams tmp/library-export/catalog.json
 | `GET /api/library/download-status` | 当前文件、进度、已完成卷和错误 |
 | `POST /api/library/remove` | 按 `id` 移除本机运行文件，保留进度 |
 
-所有变更接口校验本机 Origin 和 `X-Puuka-Request: 1`，不接受任意仓库或下载地址。程序更新与题库变更互斥，文件路径和大小受限。所有下载来自固定 GitLab 项目，不上传本机题目、音频或作答记录。
+所有变更接口校验本机 Origin 和 `X-Puuka-Request: 1`，不接受任意仓库或下载地址。程序更新与题库变更互斥，文件路径和大小受限。程序下载来自固定 GitHub 仓库，题库下载来自固定浙大 GitLab 项目，不上传本机题目、音频或作答记录。
 
 ## 本次迁移
 

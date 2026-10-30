@@ -162,7 +162,7 @@ exams/
 
 ## 更新机制
 
-固定更新源为[浙大 GitLab](https://git.zju.edu.cn/3240104224/puuka-jlpt-dojo)的 `master` 分支。程序更新器固定一次提交 SHA，再分页读取文件树，比较本机 Git blob SHA1，只下载变化的程序文件并核验哈希；`exams/` 不在允许范围内。
+固定更新源为[GitHub](https://github.com/xi2p/Puuka-JLPT-Dojo)的 `master` 分支。程序更新器固定一次提交 SHA，再读取完整文件树（不接受截断结果），比较本机 Git blob SHA1，只下载变化的程序文件并核验哈希；`exams/` 不在允许范围内。
 
 暂存和回滚备份位于项目 `tmp/`。程序文件写入失败会回滚。题库目录与每套试卷独立下载、校验和安装，见[程序与题库的维护](LIBRARY-MANAGEMENT.md)。
 

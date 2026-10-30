@@ -27,7 +27,7 @@ Puuka JLPT Dojo 是一个在电脑浏览器中使用的 JLPT 真题练习工具�
 
 以下步骤适用于 Windows。
 
-1. [下载程序 ZIP](https://git.zju.edu.cn/3240104224/puuka-jlpt-dojo/-/archive/master/puuka-jlpt-dojo-master.zip)，完整解压到固定文件夹，例如 `D:\Puuka-JLPT-Dojo`。不要在压缩包内运行。
+1. [下载程序 ZIP](https://github.com/xi2p/Puuka-JLPT-Dojo/archive/refs/heads/master.zip)，完整解压到固定文件夹，例如 `D:\Puuka-JLPT-Dojo`。不要在压缩包内运行。
 2. 双击 **部署网站.cmd**，按提示等待部署完成。首次部署可能需要联网下载运行所需的组件。
 3. 双击 **启动网站.cmd**，浏览器会打开 <http://127.0.0.1:3300>。
 4. 在首页选择需要的试卷，下载完成后点击「开始作答」。
@@ -95,7 +95,7 @@ Puuka JLPT Dojo 是一个在电脑浏览器中使用的 JLPT 真题练习工具�
 ## 常见问题
 
 - **网页打不开**：检查服务窗口是否仍在运行，尝试重新启动，再打开 <http://127.0.0.1:3300>。
-- **下载或更新失败**：先确认能访问[浙大 GitLab](https://git.zju.edu.cn/3240104224/puuka-jlpt-dojo)。校外访问请按学校网络要求连接。已有试卷仍可离线练习。
+- **下载或更新失败**：程序更新需能访问[GitHub](https://github.com/xi2p/Puuka-JLPT-Dojo)；题库下载需能访问[浙大 GitLab](https://git.zju.edu.cn/3240104224/puuka-jlpt-dojo-lib)，校外访问请按学校网络要求连接。已有试卷仍可离线练习。
 - **进度找不到**：确认使用的是原来的程序文件夹，并在首页「作答记录」中查找。不要急着清理数据或重新安装；有备份时可先备份当前记录，再导入旧备份。
 
 更多问题见[使用指南](docs/USER-GUIDE.md#常见问题)。维护者请参阅[维护说明](docs/LIBRARY-MANAGEMENT.md)和[项目结构](docs/PROJECT-STRUCTURE.md)。

@@ -10,13 +10,13 @@ function exam(id='n2-2020-07',audio='new audio'){
 }
 async function write(root,entries){for(const [name,v] of Object.entries(entries)){const p=path.join(root,name);await fs.mkdir(path.dirname(p),{recursive:true});await fs.writeFile(p,v);}}
 const prefixed=(prefix,e)=>Object.fromEntries(Object.entries(e).map(([k,v])=>[prefix+'/'+k,v]));
-test.before(async()=>{const root=path.join(__dirname,'../tmp');await fs.mkdir(root,{recursive:true});work=await fs.mkdtemp(path.join(root,'gitlab-test-'));});
+test.before(async()=>{const root=path.join(__dirname,'../tmp');await fs.mkdir(root,{recursive:true});work=await fs.mkdtemp(path.join(root,'github-test-'));});
 test.after(async()=>{await fs.rm(work,{recursive:true,force:true});});
-test('GitLab commit endpoint and response format replace GitHub',async()=>{
+test('program updates use GitHub commits while banks stay independent',async()=>{
  const root=path.join(work,'version');await write(root,{'.runtime/version.json':JSON.stringify({sha})});
- const r=await checkUpdate(root,async url=>{assert.match(url,/git\.zju\.edu\.cn\/api\/v4\/projects\/3240104224%2Fpuuka-jlpt-dojo\/repository\/commits\/master$/);return Response.json({id:sha,message:'sync exams\nmore'});});
- assert.equal(r.available,false);assert.equal(r.message,'sync exams');assert.match(r.repository,/git.zju.edu.cn/);
- await assert.rejects(checkUpdate(root,async()=>Response.json({sha})),/无效/);
+ const r=await checkUpdate(root,async url=>{assert.match(url,/api\.github\.com\/repos\/xi2p\/Puuka-JLPT-Dojo\/commits\/master$/);return Response.json({sha,commit:{message:'update program\nmore'}});});
+ assert.equal(r.available,false);assert.equal(r.message,'update program');assert.match(r.repository,/github.com/);
+ await assert.rejects(checkUpdate(root,async()=>Response.json({id:sha})),/无效/);
  await assert.rejects(checkUpdate(root,async()=>new Response('',{status:403})),/权限/);
 });
 test('program update ignores all remote exams and preserves local banks and personal files',async()=>{
@@ -40,18 +40,24 @@ test('program update never inspects or installs remote bank files',async()=>{
  await applySource(source,root,sha,path.join(work,'invalid-backup'));assert.equal(await fs.readFile(path.join(root,'server.js'),'utf8'),'new server');assert.equal(await fs.stat(path.join(root,'exams')).then(()=>true,()=>false),false);
  for(const p of ['data/progress.json','tmp/checkpoint','.git/config','exams/../data/progress.json','exams/source.pdf','exams/n1-2024-12/exam.json','exams/n1-2024-12/assets/listening.mp3','docs/imports/private.md','public/../../secret'])assert.equal(allowed(p),false,p);
 });
-test('incremental download follows pagination, skips identical blobs and verifies changed bytes',async()=>{
+test('incremental download pins the tree, skips identical blobs and verifies changed bytes',async()=>{
  const root=path.join(work,'incremental');await write(root,{'server.js':'old','public/index.html':program['public/index.html']});
- const remote={...program,...prefixed('exams/n2-2020-07',exam())},entries=Object.entries(remote).map(([p,v])=>({path:p,type:'blob',mode:'100644',id:hash(v)})),downloads=[];
- const request=async url=>{
-  if(url.includes('/commits/'))return Response.json({id:sha,message:'test'});
-  if(url.includes('/tree?')){const page=new URL(url).searchParams.get('page');return Response.json(page==='1'?entries.slice(0,2):entries.slice(2),{headers:{'x-next-page':page==='1'?'2':''}});}
-  const id=url.split('/').at(-2);downloads.push(id);const value=Object.values(remote).find(v=>hash(v)===id);assert.ok(value);return new Response(value);
+ const remote={...program,...prefixed('exams/n2-2020-07',exam())},entries=Object.entries(remote).map(([p,v])=>({path:p,type:'blob',mode:'100644',sha:hash(v)})),downloads=[];
+ const request=async (url,options)=>{
+  if(url.includes('/commits/'))return Response.json({sha,commit:{message:'test'}});
+  if(url.includes('/git/trees/')){assert.ok(url.includes(sha));return Response.json({tree:entries,truncated:false});}
+  assert.ok(url.startsWith(`https://raw.githubusercontent.com/xi2p/Puuka-JLPT-Dojo/${sha}/`));const name=decodeURIComponent(new URL(url).pathname.split('/').slice(4).join('/'));const value=remote[name];assert.ok(value);downloads.push(hash(value));return new Response(value);
  };
  const r=await update(root,request);assert.equal(r.updated,true);assert.equal(downloads.includes(hash(program['public/index.html'])),false);assert.equal(createStore(path.join(root,'exams')).listExams().length,0);assert.equal(await fs.readFile(path.join(root,'server.js'),'utf8'),'new server');
- const bad=path.join(work,'bad-download');await fs.mkdir(bad);await assert.rejects(update(bad,async url=>url.includes('/commits/')?Response.json({id:sha}):url.includes('/tree?')?Response.json(entries):new Response('corrupt')),/校验失败/);assert.equal(await fs.stat(path.join(bad,'server.js')).then(()=>true,()=>false),false);
+ const bad=path.join(work,'bad-download');await fs.mkdir(bad);await assert.rejects(update(bad,async url=>url.includes('/commits/')?Response.json({sha}):url.includes('/git/trees/')?Response.json({tree:entries}):new Response('corrupt')),/校验失败/);assert.equal(await fs.stat(path.join(bad,'server.js')).then(()=>true,()=>false),false);
 });
 test('removed exam upload endpoint cannot install a ZIP; update still rejects cross-origin requests',async()=>{
  process.env.JLPT_STATE_FILE=path.join(work,'http-state.json');const {server}=require('../server.js');await new Promise(r=>server.listen(0,'127.0.0.1',r));const base=`http://127.0.0.1:${server.address().port}`;
  try{assert.equal((await fetch(base+'/api/exams/import',{method:'POST',body:'zip'})).status,405);assert.equal((await fetch(base+'/api/update/apply',{method:'POST'})).status,403);assert.equal((await fetch(base+'/api/update/check',{method:'POST',headers:{'X-Puuka-Request':'1',Origin:'https://external.example'}})).status,403);}finally{await new Promise(r=>server.close(r));}
+});
+
+test('truncated GitHub trees fail before applying any files',async()=>{
+ const root=path.join(work,'truncated');await write(root,{'server.js':'unchanged'});
+ await assert.rejects(update(root,async url=>url.includes('/commits/')?Response.json({sha}):Response.json({tree:[],truncated:true})),/不完整/);
+ assert.equal(await fs.readFile(path.join(root,'server.js'),'utf8'),'unchanged');
 });
